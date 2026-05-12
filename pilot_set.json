@@ -1,0 +1,510 @@
+[
+  {
+    "id": 1,
+    "question": "Michelangelo Merisi (or Amerighi) is the birth name of which artist?",
+    "correct_answer": "Morigi, Michaelangelo (Caravaggio)",
+    "model_answer": "Caravaggio",
+    "explanation": "Michelangelo Merisi (or Amerighi) is the birth name of the renowned Italian Baroque painter Caravaggio. He was born on September 29, 1571, in Milan, Italy, and is known for his dramatic and emotionally charged paintings that often featured intense light and shadow. Caravaggio's innovative style and technique had a significant influence on the development of Western art, and he is considered one of the greatest painters of all time. The name \"Caravaggio\" is derived from his hometown of Caravaggio, Italy, where his family moved when he was a young boy.",
+    "commitments": {
+      "explicit": [
+        "Michelangelo Merisi (or Amerighi) is the birth name of Caravaggio",
+        "Caravaggio was born on September 29, 1571, in Milan, Italy",
+        "Caravaggio is known for his dramatic and emotionally charged paintings that often featured intense light and shadow",
+        "Caravaggio's innovative style and technique had a significant influence on the development of Western art",
+        "Caravaggio is considered one of the greatest painters of all time",
+        "The name 'Caravaggio' is derived from his hometown of Caravaggio, Italy",
+        "Caravaggio's family moved to Caravaggio, Italy, when he was a young boy"
+      ],
+      "implicit": [
+        "Caravaggio is Italian",
+        "Caravaggio's family had a connection to Caravaggio, Italy",
+        "Caravaggio's work is part of Western art",
+        "Caravaggio's style and technique were innovative for his time"
+      ],
+      "logical_principle": [
+        "The use of birth names to identify individuals",
+        "The concept of influence in the development of art",
+        "The relationship between an artist's style and their reputation"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "question": "In classical architecture, what is the plain-faced portion, usually rectangular, of a pedestal between the base and the cornice?",
+    "correct_answer": "Dado",
+    "model_answer": "Die",
+    "explanation": "In classical architecture, the die refers to the plain-faced portion, usually rectangular, of a pedestal between the base and the cornice. It is the main, middle section of the pedestal, often simple in design, and serves as a support for the superstructure or sculpture above. The die is typically positioned between the base, which is the lower part of the pedestal, and the cornice or cap, which is the upper part. This terminology is commonly used in the context of classical orders and architectural elements.",
+    "commitments": {
+      "explicit": [
+        "The die refers to the plain-faced portion, usually rectangular, of a pedestal between the base and the cornice",
+        "The die is the main, middle section of the pedestal",
+        "The die serves as a support for the superstructure or sculpture above",
+        "The die is typically positioned between the base and the cornice or cap"
+      ],
+      "implicit": [
+        "The die is often simple in design",
+        "The base is the lower part of the pedestal",
+        "The cornice or cap is the upper part of the pedestal"
+      ],
+      "logical_principle": [
+        "The definition of a term can be used to identify its characteristics",
+        "The description of a component can imply its function and position within a larger structure"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "question": "Who is the Vice President, and High Representative of the European Union for Foreign Affairs and Security Policy?",
+    "correct_answer": "Kathy Ashton",
+    "model_answer": "Josep Borrell",
+    "explanation": "The position of Vice President and High Representative of the European Union for Foreign Affairs and Security Policy is a key role in the European Union, responsible for the EU's foreign and security policy. As of my knowledge cutoff, Josep Borrell holds this position, having taken office on December 1, 2019. He is a Spanish politician and diplomat who previously served as the Foreign Minister of Spain. Borrell's role involves coordinating the EU's external actions, representing the EU in international affairs, and working to promote the EU's values and interests globally.",
+    "commitments": {
+      "explicit": [
+        "The position of Vice President and High Representative of the European Union for Foreign Affairs and Security Policy is a key role in the European Union",
+        "Josep Borrell holds this position",
+        "Josep Borrell took office on December 1, 2019",
+        "Josep Borrell is a Spanish politician and diplomat",
+        "Josep Borrell previously served as the Foreign Minister of Spain",
+        "The role involves coordinating the EU's external actions",
+        "The role involves representing the EU in international affairs",
+        "The role involves working to promote the EU's values and interests globally"
+      ],
+      "implicit": [
+        "The European Union has a Vice President and High Representative for Foreign Affairs and Security Policy",
+        "The role of Vice President and High Representative is responsible for the EU's foreign and security policy",
+        "Josep Borrell is currently in office as of the knowledge cutoff"
+      ],
+      "logical_principle": [
+        "The person holding a position is responsible for the duties associated with that position",
+        "A person's previous experience is relevant to their current role"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "question": "Nostradamus \u201cBull\u201d Shannon, who also wrote a children\u2019s book entitled Puff the Flesh Eating Dragon, was a bailiff on what long running NBC comedy?",
+    "correct_answer": "Selma Hacker",
+    "model_answer": "Night Court",
+    "explanation": "The question mentions Nostradamus \"Bull\" Shannon, a character who was a bailiff on a long-running NBC comedy. This character was played by actor Richard Moll on the show Night Court, which aired from 1984 to 1992. The mention of the character's nickname and occupation, as well as the reference to the children's book, are clues that point to the correct answer being Night Court.",
+    "commitments": {
+      "explicit": [
+        "Nostradamus Bull Shannon was a bailiff on Night Court",
+        "Night Court aired from 1984 to 1992",
+        "Richard Moll played the character Nostradamus Bull Shannon"
+      ],
+      "implicit": [
+        "Nostradamus Bull Shannon is a well-known character",
+        "The children's book Puff the Flesh Eating Dragon is associated with Nostradamus Bull Shannon"
+      ],
+      "logical_principle": [
+        "inference based on character description and occupation",
+        "use of clues to determine the correct answer"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "question": "The antirrhinum plant is more commonly known as what?",
+    "correct_answer": "Snap dragons",
+    "model_answer": "Snapdragons",
+    "explanation": "The antirrhinum plant is more commonly known as snapdragons due to the shape of its flowers, which resemble the mouth of a dragon that can be opened and closed, making a snapping sound when the flowers are gently squeezed. This unique characteristic led to the plant being nicknamed \"snapdragon\" in everyday language, while antirrhinum remains its formal botanical name.",
+    "commitments": {
+      "explicit": [
+        "The antirrhinum plant is more commonly known as snapdragons",
+        "The shape of its flowers resemble the mouth of a dragon",
+        "The flowers can be opened and closed",
+        "The flowers make a snapping sound when gently squeezed",
+        "Antirrhinum remains its formal botanical name"
+      ],
+      "implicit": [
+        "The name 'snapdragon' is derived from the sound the flowers make",
+        "The plant has a unique characteristic"
+      ],
+      "logical_principle": [
+        "The naming of plants is often based on their physical characteristics or behaviors"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "question": "Which unit of weight, equal to one gram per 9,000 metres, is used to measure the fineness of nylon?",
+    "correct_answer": "DENIER",
+    "model_answer": "Denier",
+    "explanation": "The unit of weight used to measure the fineness of nylon is the denier. The denier is a unit of measure that represents the weight in grams of a 9,000-meter length of fiber. It is commonly used to express the fineness of fibers such as nylon, silk, and wool. A lower denier value indicates a finer fiber, while a higher denier value indicates a thicker fiber. This unit of measurement is particularly useful in the textile industry, where the fineness of fibers can affect the texture, durability, and overall quality of the final product.",
+    "commitments": {
+      "explicit": [
+        "The unit of weight used to measure the fineness of nylon is the denier",
+        "The denier is a unit of measure that represents the weight in grams of a 9,000-meter length of fiber",
+        "A lower denier value indicates a finer fiber",
+        "A higher denier value indicates a thicker fiber"
+      ],
+      "implicit": [
+        "The denier is used in the textile industry",
+        "The fineness of fibers affects the texture, durability, and quality of the final product",
+        "Nylon is a type of fiber"
+      ],
+      "logical_principle": [
+        "A unit of measurement can be used to express the fineness of fibers",
+        "A lower value of a unit of measurement can indicate a smaller or finer quantity",
+        "A higher value of a unit of measurement can indicate a larger or thicker quantity"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "question": "In which capital city are the Tivoli gardens?",
+    "correct_answer": "K\u00f8benhavn, Denmark",
+    "model_answer": "Copenhagen",
+    "explanation": "The Tivoli Gardens is a famous amusement park located in the heart of Copenhagen, the capital city of Denmark. It is one of the oldest operating amusement parks in the world and a popular tourist destination, known for its beautiful gardens, thrilling rides, and entertainment options. Therefore, the correct answer is Copenhagen, as it is the capital city where the Tivoli Gardens are situated.",
+    "commitments": {
+      "explicit": [
+        "The Tivoli Gardens is a famous amusement park located in the heart of Copenhagen",
+        "Copenhagen is the capital city of Denmark",
+        "The Tivoli Gardens is one of the oldest operating amusement parks in the world",
+        "The Tivoli Gardens is a popular tourist destination",
+        "The Tivoli Gardens is known for its beautiful gardens, thrilling rides, and entertainment options"
+      ],
+      "implicit": [
+        "The Tivoli Gardens is located in only one city",
+        "Copenhagen is a city with a notable amusement park"
+      ],
+      "logical_principle": [
+        "If a location is described as being in the heart of a city, then it is within that city",
+        "If a statement is made about a specific instance, then that instance is an example of a general category"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "question": "Lynchburg the home of Jack Daniels whisky is in which US State?",
+    "correct_answer": "Tennessee (river)",
+    "model_answer": "Tennessee",
+    "explanation": "Lynchburg is a town in Moore County, Tennessee, and it is indeed the home of the Jack Daniel's whiskey distillery. The distillery has been producing whiskey in Lynchburg since 1866, and it is one of the most famous whiskey brands in the world. Although the town of Lynchburg is small, it is well-known for its association with Jack Daniel's, and it attracts many tourists who visit the distillery and the surrounding area.",
+    "commitments": {
+      "explicit": [
+        "Lynchburg is a town in Moore County, Tennessee",
+        "Lynchburg is the home of the Jack Daniel's whiskey distillery",
+        "The distillery has been producing whiskey in Lynchburg since 1866",
+        "Jack Daniel's is one of the most famous whiskey brands in the world",
+        "The town of Lynchburg is small"
+      ],
+      "implicit": [
+        "Lynchburg is located in the United States",
+        "Tennessee is a US State",
+        "The Jack Daniel's whiskey distillery is still operational",
+        "Lynchburg attracts tourists"
+      ],
+      "logical_principle": [
+        "association implies connection",
+        "fame implies popularity",
+        "production over time implies continuity"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "question": "Five-legged creatures have damaged which 1250 mile long wonder of the world?",
+    "correct_answer": "Great Barrier Reef",
+    "model_answer": "The Great Barrier Reef",
+    "explanation": "The question mentions \"five-legged creatures\" which is a reference to starfish, also known as sea stars. Some species of starfish, particularly the crown-of-thorns starfish, are known to feed on coral and can cause significant damage to coral reefs. The Great Barrier Reef, located off the coast of Australia, is a 1,250 mile (2,000 km) long coral reef system and one of the wonders of the world. It has been affected by outbreaks of the crown-of-thorns starfish, which can cause coral bleaching and damage to the reef ecosystem. Therefore, the answer is the Great Barrier Reef.",
+    "commitments": {
+      "explicit": [
+        "The Great Barrier Reef is a 1,250 mile long coral reef system",
+        "Some species of starfish, particularly the crown-of-thorns starfish, are known to feed on coral and can cause significant damage to coral reefs",
+        "The Great Barrier Reef has been affected by outbreaks of the crown-of-thorns starfish"
+      ],
+      "implicit": [
+        "Starfish are five-legged creatures",
+        "The crown-of-thorns starfish outbreaks can cause coral bleaching",
+        "The Great Barrier Reef is one of the wonders of the world"
+      ],
+      "logical_principle": [
+        "Cause-and-effect reasoning: the presence of crown-of-thorns starfish causes damage to coral reefs",
+        "Identification by characteristic: five-legged creatures are identified as starfish"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "question": "What is minus 40 degrees Farenheit expressed as degrees Centigrade?",
+    "correct_answer": "minus 40, the same",
+    "model_answer": "-40\u00b0C",
+    "explanation": "To convert degrees Fahrenheit to degrees Centigrade (also known as Celsius), we use the formula: \u00b0C = (\u00b0F - 32) \u00d7 5/9. However, in this specific case, -40 degrees is a unique point where the Fahrenheit and Celsius scales intersect. At -40 degrees, both Fahrenheit and Celsius are equal, so -40\u00b0F is equal to -40\u00b0C. This is because the scales are defined such that water freezes at 32\u00b0F and 0\u00b0C, and boils at 212\u00b0F and 100\u00b0C, resulting in this single point of intersection at -40 degrees.",
+    "commitments": {
+      "explicit": [
+        "To convert degrees Fahrenheit to degrees Centigrade, we use the formula: \u00b0C = (\u00b0F - 32) \u00d7 5/9",
+        "-40\u00b0F is equal to -40\u00b0C",
+        "water freezes at 32\u00b0F and 0\u00b0C",
+        "water boils at 212\u00b0F and 100\u00b0C"
+      ],
+      "implicit": [
+        "the Fahrenheit and Celsius scales intersect at -40 degrees",
+        "the conversion formula is not needed for -40 degrees"
+      ],
+      "logical_principle": [
+        "the definition of a temperature scale can be used to determine equivalent points between scales",
+        "if two scales intersect at a point, that point is equal on both scales"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 11,
+    "question": "The Euro is divided into how many cents?",
+    "correct_answer": "100",
+    "model_answer": "100",
+    "explanation": "The Euro is the official currency of the European Union and is divided into 100 smaller units called cents. This is similar to other decimal-based currencies, such as the US dollar, which is also divided into 100 cents. The subdivision of the Euro into 100 cents provides a convenient and standardized way to express smaller amounts of money, making it easier for people to understand and calculate prices and transactions.",
+    "commitments": {
+      "explicit": [
+        "The Euro is divided into 100 smaller units called cents",
+        "The Euro is the official currency of the European Union",
+        "The US dollar is divided into 100 cents"
+      ],
+      "implicit": [
+        "The Euro is a decimal-based currency",
+        "Other decimal-based currencies are similar to the Euro in terms of subdivision"
+      ],
+      "logical_principle": [
+        "Standardization facilitates understanding and calculation"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 12,
+    "question": "Timothy Q Mouse, Mr Stork and Jim Crow are all characters in which Disney film?",
+    "correct_answer": "Dumbo (film)",
+    "model_answer": "Dumbo",
+    "explanation": "The characters Timothy Q Mouse, Mr Stork, and Jim Crow are all featured in the 1941 Disney animated film Dumbo. Timothy Q Mouse is a friendly mouse who befriends Dumbo, Mr Stork delivers baby Dumbo to his mother, and Jim Crow is the leader of a group of crows who help Dumbo and Timothy. These characters all play significant roles in the story, making Dumbo the correct answer to the question.",
+    "commitments": {
+      "explicit": [
+        "Timothy Q Mouse is a character in Dumbo",
+        "Mr Stork is a character in Dumbo",
+        "Jim Crow is a character in Dumbo",
+        "Dumbo is a 1941 Disney animated film",
+        "Timothy Q Mouse befriends Dumbo",
+        "Mr Stork delivers baby Dumbo to his mother",
+        "Jim Crow is the leader of a group of crows who help Dumbo and Timothy"
+      ],
+      "implicit": [
+        "Timothy Q Mouse, Mr Stork, and Jim Crow are significant to the plot of Dumbo",
+        "The characters in Dumbo have distinct roles"
+      ],
+      "logical_principle": [
+        "if characters are featured in a film, then that film is a correct answer to a question about those characters"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 13,
+    "question": "What is the alternative two-word name for the Ratel, a member of the weasel family?",
+    "correct_answer": "Mellivora",
+    "model_answer": "Honey Badger",
+    "explanation": "The Ratel is also commonly known as the Honey Badger due to its reputation for raiding beehives in search of honey. This alternative name is widely recognized and used to refer to this member of the weasel family, which is known for its fearlessness and tenacity.",
+    "commitments": {
+      "explicit": [
+        "The Ratel is also commonly known as the Honey Badger",
+        "The Ratel raids beehives in search of honey",
+        "The Honey Badger is a member of the weasel family",
+        "The Ratel is known for its fearlessness and tenacity"
+      ],
+      "implicit": [
+        "The Honey Badger gets its name from its behavior",
+        "The Ratel is fearless and tenacious when raiding beehives"
+      ],
+      "logical_principle": [
+        "naming based on behavior or characteristics is a common practice"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 14,
+    "question": "In Greek mythology, a female hybrid monster with the front of a lion, the middle of a goat and the rear of a dragon is called a ?",
+    "correct_answer": "Chimaeras",
+    "model_answer": "Chimera",
+    "explanation": "The Chimera is a female hybrid monster in Greek mythology that is described as having the front of a lion, the middle of a goat, and the rear of a serpent or dragon. It is often depicted as a terrifying creature that can breathe fire. The term \"Chimera\" has since been used to describe any fantastical or unreal creature, but in the context of Greek mythology, it specifically refers to this lion-goat-dragon hybrid.",
+    "commitments": {
+      "explicit": [
+        "The Chimera is a female hybrid monster in Greek mythology",
+        "it has the front of a lion",
+        "it has the middle of a goat",
+        "it has the rear of a serpent or dragon",
+        "it can breathe fire",
+        "The term 'Chimera' has been used to describe any fantastical or unreal creature"
+      ],
+      "implicit": [
+        "The Chimera is a creature from ancient mythology",
+        "The Chimera is typically depicted as terrifying"
+      ],
+      "logical_principle": [
+        "The definition of a term can be used to identify its meaning in a specific context",
+        "A term's original meaning can be extended to describe similar concepts"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 15,
+    "question": "Which British athlete won the gold medal in the Women's Javelin at the 1984 Olympic Games?",
+    "correct_answer": "Tessa Sanderson",
+    "model_answer": "Tessa Sanderson",
+    "explanation": "Tessa Sanderson is a British athlete who won the gold medal in the Women's Javelin at the 1984 Olympic Games, which were held in Los Angeles. She achieved this with a throw of 69.56 meters, setting a new Olympic record at the time. Sanderson's victory marked a significant milestone in her career, and she remains one of the most accomplished British track and field athletes in history.",
+    "commitments": {
+      "explicit": [
+        "Tessa Sanderson is a British athlete",
+        "Tessa Sanderson won the gold medal in the Women's Javelin at the 1984 Olympic Games",
+        "The 1984 Olympic Games were held in Los Angeles",
+        "Tessa Sanderson achieved the gold medal with a throw of 69.56 meters",
+        "Tessa Sanderson set a new Olympic record at the time",
+        "Tessa Sanderson's victory marked a significant milestone in her career",
+        "Tessa Sanderson remains one of the most accomplished British track and field athletes in history"
+      ],
+      "implicit": [
+        "The Women's Javelin event was part of the 1984 Olympic Games",
+        "Tessa Sanderson was competing in the Women's Javelin event at the 1984 Olympic Games",
+        "The Olympic record set by Tessa Sanderson was for the Women's Javelin event"
+      ],
+      "logical_principle": [
+        "If an athlete wins a gold medal, they are the best in their event at the time",
+        "If an athlete sets a new Olympic record, their achievement is significant"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 16,
+    "question": "What is the name of the stretch of water which separates Corsica from Sardinia?",
+    "correct_answer": "STRAIT OF BONTFACIO",
+    "model_answer": "The Strait of Bonifacio",
+    "explanation": "The Strait of Bonifacio is a narrow stretch of water that separates the French island of Corsica from the Italian island of Sardinia in the Mediterranean Sea. It is approximately 11 kilometers (7 miles) wide at its narrowest point and connects the Tyrrhenian Sea to the west with the Mediterranean Sea to the east. The strait is named after the town of Bonifacio, which is located on the southern tip of Corsica.",
+    "commitments": {
+      "explicit": [
+        "The Strait of Bonifacio is a narrow stretch of water",
+        "it separates the French island of Corsica from the Italian island of Sardinia",
+        "it is approximately 11 kilometers wide at its narrowest point",
+        "it connects the Tyrrhenian Sea to the west with the Mediterranean Sea to the east",
+        "the strait is named after the town of Bonifacio",
+        "the town of Bonifacio is located on the southern tip of Corsica"
+      ],
+      "implicit": [
+        "The Strait of Bonifacio is located in the Mediterranean Sea",
+        "Corsica is a French island",
+        "Sardinia is an Italian island"
+      ],
+      "logical_principle": [
+        "geographical features can be named after nearby locations",
+        "islands can be associated with countries or territories"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 17,
+    "question": "Who composed the music for the oratorio, 'Belshazzar's Feast'?",
+    "correct_answer": "Will Walton",
+    "model_answer": "William Walton",
+    "explanation": "The oratorio 'Belshazzar's Feast' was composed by William Walton, a British composer, in 1930-1931. It is considered one of his most famous works and is known for its dramatic and evocative music, which sets the story of the fall of Babylon from the Book of Daniel to music. Walton's composition is highly regarded for its innovative use of orchestration, choral writing, and vocal soloists, making it a landmark work in the oratorio genre.",
+    "commitments": {
+      "explicit": [
+        "William Walton composed the music for the oratorio 'Belshazzar's Feast'",
+        "The oratorio 'Belshazzar's Feast' was composed in 1930-1931",
+        "William Walton is a British composer",
+        "The oratorio 'Belshazzar's Feast' is one of William Walton's most famous works",
+        "The oratorio 'Belshazzar's Feast' sets the story of the fall of Babylon from the Book of Daniel to music",
+        "William Walton's composition is highly regarded for its innovative use of orchestration, choral writing, and vocal soloists"
+      ],
+      "implicit": [
+        "William Walton was alive in 1930-1931",
+        "The Book of Daniel is a biblical text",
+        "The oratorio genre is a style of musical composition",
+        "Innovative use of orchestration, choral writing, and vocal soloists is a desirable trait in music composition"
+      ],
+      "logical_principle": [
+        "A composer is responsible for creating the music for a work",
+        "A work can be considered a landmark in its genre based on its innovative qualities and reception"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 18,
+    "question": "What number on the BeauforT Scale equates to a gale?",
+    "correct_answer": "8",
+    "model_answer": "8",
+    "explanation": "The Beaufort Scale is a system used to estimate wind speed based on observable conditions at sea or on land. It ranges from 0 (calm) to 12 (hurricane). A gale is defined as a strong wind, and according to the Beaufort Scale, a gale corresponds to a wind speed of 34-47 knots (39-54 mph). This wind speed range is associated with a Beaufort number of 8, which is described as a \"gale\" with moderate to high waves and a noticeable impact on trees and structures.",
+    "commitments": {
+      "explicit": [
+        "The Beaufort Scale ranges from 0 (calm) to 12 (hurricane)",
+        "A gale corresponds to a wind speed of 34-47 knots (39-54 mph)",
+        "A Beaufort number of 8 is described as a gale",
+        "A gale has moderate to high waves and a noticeable impact on trees and structures"
+      ],
+      "implicit": [
+        "The Beaufort Scale is applicable to both sea and land conditions",
+        "The Beaufort number is directly related to the wind speed and its effects"
+      ],
+      "logical_principle": [
+        "A system of measurement can be used to estimate values based on observable conditions",
+        "A definition of a term can be used to determine its equivalent value on a scale"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 19,
+    "question": "\"Which work by Dylan Thomas starts with the words \"\"To begin at the beginning\"\"?\"",
+    "correct_answer": "Llaregybb",
+    "model_answer": "\"Under Milk Wood\"",
+    "explanation": "The quote \"To begin at the beginning\" is the opening line of Dylan Thomas's 1954 radio drama \"Under Milk Wood\". This work is a poetic and imaginative portrayal of life in a small Welsh village, and its unique narrative style and language have made it one of Thomas's most famous and enduring works. The opening line sets the tone for the rest of the play, which explores themes of identity, community, and the power of storytelling.",
+    "commitments": {
+      "explicit": [
+        "The quote \"To begin at the beginning\" is the opening line of Dylan Thomas's 1954 radio drama \"Under Milk Wood\"",
+        "\"Under Milk Wood\" is a poetic and imaginative portrayal of life in a small Welsh village",
+        "\"Under Milk Wood\" is one of Thomas's most famous and enduring works",
+        "The opening line sets the tone for the rest of the play",
+        "The play explores themes of identity, community, and the power of storytelling"
+      ],
+      "implicit": [
+        "Dylan Thomas wrote \"Under Milk Wood\"",
+        "The work is a radio drama",
+        "The play has a unique narrative style and language"
+      ],
+      "logical_principle": [
+        "A work can be identified by its opening line",
+        "The tone of a work is set by its opening",
+        "The themes of a work can be inferred from its narrative style and language"
+      ]
+    },
+    "human_verified": false,
+    "notes": ""
+  }
+]
