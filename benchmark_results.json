@@ -1,0 +1,991 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "n_examples": 19,
+  "category_stats": {
+    "explicit": {
+      "yes": 88,
+      "no": 8,
+      "unclear": 0
+    },
+    "implicit": {
+      "yes": 46,
+      "no": 5,
+      "unclear": 0
+    },
+    "logical_principle": {
+      "yes": 37,
+      "no": 1,
+      "unclear": 0
+    }
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "Michelangelo Merisi (or Amerighi) is the birth name of which artist?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "Michelangelo Merisi (or Amerighi) is the birth name of Caravaggio",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio was born on September 29, 1571, in Milan, Italy",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio is known for his dramatic and emotionally charged paintings that often featured intense light and shadow",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio's innovative style and technique had a significant influence on the development of Western art",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio is considered one of the greatest painters of all time",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The name 'Caravaggio' is derived from his hometown of Caravaggio, Italy",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio's family moved to Caravaggio, Italy, when he was a young boy",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Caravaggio is Italian",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio's family had a connection to Caravaggio, Italy",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio's work is part of Western art",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Caravaggio's style and technique were innovative for his time",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "The use of birth names to identify individuals",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The concept of influence in the development of art",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The relationship between an artist's style and their reputation",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "question": "In classical architecture, what is the plain-faced portion, usually rectangular, of a pedestal between the base and the cornice?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The die refers to the plain-faced portion, usually rectangular, of a pedestal between the base and the cornice",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The die is the main, middle section of the pedestal",
+            "answer": "no"
+          },
+          {
+            "commitment": "The die serves as a support for the superstructure or sculpture above",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The die is typically positioned between the base and the cornice or cap",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The die is often simple in design",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The base is the lower part of the pedestal",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The cornice or cap is the upper part of the pedestal",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "The definition of a term can be used to identify its characteristics",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The description of a component can imply its function and position within a larger structure",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "question": "Who is the Vice President, and High Representative of the European Union for Foreign Affairs and Security Policy?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The position of Vice President and High Representative of the European Union for Foreign Affairs and Security Policy is a key role in the European Union",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Josep Borrell holds this position",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Josep Borrell took office on December 1, 2019",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Josep Borrell is a Spanish politician and diplomat",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Josep Borrell previously served as the Foreign Minister of Spain",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The role involves coordinating the EU's external actions",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The role involves representing the EU in international affairs",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The role involves working to promote the EU's values and interests globally",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The European Union has a Vice President and High Representative for Foreign Affairs and Security Policy",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The role of Vice President and High Representative is responsible for the EU's foreign and security policy",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Josep Borrell is currently in office as of the knowledge cutoff",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "The person holding a position is responsible for the duties associated with that position",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A person's previous experience is relevant to their current role",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "question": "Nostradamus \u201cBull\u201d Shannon, who also wrote a children\u2019s book entitled Puff the Flesh Eating Dragon, was a bailiff on what long running NBC comedy?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "Nostradamus Bull Shannon was a bailiff on Night Court",
+            "answer": "no"
+          },
+          {
+            "commitment": "Night Court aired from 1984 to 1992",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Richard Moll played the character Nostradamus Bull Shannon",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Nostradamus Bull Shannon is a well-known character",
+            "answer": "no"
+          },
+          {
+            "commitment": "The children's book Puff the Flesh Eating Dragon is associated with Nostradamus Bull Shannon",
+            "answer": "no"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "inference based on character description and occupation",
+            "answer": "yes"
+          },
+          {
+            "commitment": "use of clues to determine the correct answer",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "question": "The antirrhinum plant is more commonly known as what?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The antirrhinum plant is more commonly known as snapdragons",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The shape of its flowers resemble the mouth of a dragon",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The flowers can be opened and closed",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The flowers make a snapping sound when gently squeezed",
+            "answer": "no"
+          },
+          {
+            "commitment": "Antirrhinum remains its formal botanical name",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The name 'snapdragon' is derived from the sound the flowers make",
+            "answer": "no"
+          },
+          {
+            "commitment": "The plant has a unique characteristic",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "The naming of plants is often based on their physical characteristics or behaviors",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "question": "Which unit of weight, equal to one gram per 9,000 metres, is used to measure the fineness of nylon?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The unit of weight used to measure the fineness of nylon is the denier",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The denier is a unit of measure that represents the weight in grams of a 9,000-meter length of fiber",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A lower denier value indicates a finer fiber",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A higher denier value indicates a thicker fiber",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The denier is used in the textile industry",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The fineness of fibers affects the texture, durability, and quality of the final product",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Nylon is a type of fiber",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "A unit of measurement can be used to express the fineness of fibers",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A lower value of a unit of measurement can indicate a smaller or finer quantity",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A higher value of a unit of measurement can indicate a larger or thicker quantity",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "question": "In which capital city are the Tivoli gardens?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Tivoli Gardens is a famous amusement park located in the heart of Copenhagen",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Copenhagen is the capital city of Denmark",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Tivoli Gardens is one of the oldest operating amusement parks in the world",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Tivoli Gardens is a popular tourist destination",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Tivoli Gardens is known for its beautiful gardens, thrilling rides, and entertainment options",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Tivoli Gardens is located in only one city",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Copenhagen is a city with a notable amusement park",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "If a location is described as being in the heart of a city, then it is within that city",
+            "answer": "yes"
+          },
+          {
+            "commitment": "If a statement is made about a specific instance, then that instance is an example of a general category",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "question": "Lynchburg the home of Jack Daniels whisky is in which US State?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "Lynchburg is a town in Moore County, Tennessee",
+            "answer": "no"
+          },
+          {
+            "commitment": "Lynchburg is the home of the Jack Daniel's whiskey distillery",
+            "answer": "no"
+          },
+          {
+            "commitment": "The distillery has been producing whiskey in Lynchburg since 1866",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Jack Daniel's is one of the most famous whiskey brands in the world",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The town of Lynchburg is small",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Lynchburg is located in the United States",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tennessee is a US State",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Jack Daniel's whiskey distillery is still operational",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Lynchburg attracts tourists",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "association implies connection",
+            "answer": "yes"
+          },
+          {
+            "commitment": "fame implies popularity",
+            "answer": "yes"
+          },
+          {
+            "commitment": "production over time implies continuity",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "question": "Five-legged creatures have damaged which 1250 mile long wonder of the world?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Great Barrier Reef is a 1,250 mile long coral reef system",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Some species of starfish, particularly the crown-of-thorns starfish, are known to feed on coral and can cause significant damage to coral reefs",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Great Barrier Reef has been affected by outbreaks of the crown-of-thorns starfish",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Starfish are five-legged creatures",
+            "answer": "no"
+          },
+          {
+            "commitment": "The crown-of-thorns starfish outbreaks can cause coral bleaching",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Great Barrier Reef is one of the wonders of the world",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "Cause-and-effect reasoning: the presence of crown-of-thorns starfish causes damage to coral reefs",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Identification by characteristic: five-legged creatures are identified as starfish",
+            "answer": "no"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "question": "What is minus 40 degrees Farenheit expressed as degrees Centigrade?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "To convert degrees Fahrenheit to degrees Centigrade, we use the formula: \u00b0C = (\u00b0F - 32) \u00d7 5/9",
+            "answer": "yes"
+          },
+          {
+            "commitment": "-40\u00b0F is equal to -40\u00b0C",
+            "answer": "yes"
+          },
+          {
+            "commitment": "water freezes at 32\u00b0F and 0\u00b0C",
+            "answer": "yes"
+          },
+          {
+            "commitment": "water boils at 212\u00b0F and 100\u00b0C",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "the Fahrenheit and Celsius scales intersect at -40 degrees",
+            "answer": "yes"
+          },
+          {
+            "commitment": "the conversion formula is not needed for -40 degrees",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "the definition of a temperature scale can be used to determine equivalent points between scales",
+            "answer": "yes"
+          },
+          {
+            "commitment": "if two scales intersect at a point, that point is equal on both scales",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "question": "The Euro is divided into how many cents?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Euro is divided into 100 smaller units called cents",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Euro is the official currency of the European Union",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The US dollar is divided into 100 cents",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Euro is a decimal-based currency",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Other decimal-based currencies are similar to the Euro in terms of subdivision",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "Standardization facilitates understanding and calculation",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "question": "Timothy Q Mouse, Mr Stork and Jim Crow are all characters in which Disney film?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "Timothy Q Mouse is a character in Dumbo",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Mr Stork is a character in Dumbo",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Jim Crow is a character in Dumbo",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Dumbo is a 1941 Disney animated film",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Timothy Q Mouse befriends Dumbo",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Mr Stork delivers baby Dumbo to his mother",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Jim Crow is the leader of a group of crows who help Dumbo and Timothy",
+            "answer": "no"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Timothy Q Mouse, Mr Stork, and Jim Crow are significant to the plot of Dumbo",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The characters in Dumbo have distinct roles",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "if characters are featured in a film, then that film is a correct answer to a question about those characters",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "question": "What is the alternative two-word name for the Ratel, a member of the weasel family?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Ratel is also commonly known as the Honey Badger",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Ratel raids beehives in search of honey",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Honey Badger is a member of the weasel family",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Ratel is known for its fearlessness and tenacity",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Honey Badger gets its name from its behavior",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Ratel is fearless and tenacious when raiding beehives",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "naming based on behavior or characteristics is a common practice",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "question": "In Greek mythology, a female hybrid monster with the front of a lion, the middle of a goat and the rear of a dragon is called a ?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Chimera is a female hybrid monster in Greek mythology",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it has the front of a lion",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it has the middle of a goat",
+            "answer": "no"
+          },
+          {
+            "commitment": "it has the rear of a serpent or dragon",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it can breathe fire",
+            "answer": "no"
+          },
+          {
+            "commitment": "The term 'Chimera' has been used to describe any fantastical or unreal creature",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Chimera is a creature from ancient mythology",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Chimera is typically depicted as terrifying",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "The definition of a term can be used to identify its meaning in a specific context",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A term's original meaning can be extended to describe similar concepts",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "question": "Which British athlete won the gold medal in the Women's Javelin at the 1984 Olympic Games?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "Tessa Sanderson is a British athlete",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson won the gold medal in the Women's Javelin at the 1984 Olympic Games",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The 1984 Olympic Games were held in Los Angeles",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson achieved the gold medal with a throw of 69.56 meters",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson set a new Olympic record at the time",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson's victory marked a significant milestone in her career",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson remains one of the most accomplished British track and field athletes in history",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Women's Javelin event was part of the 1984 Olympic Games",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Tessa Sanderson was competing in the Women's Javelin event at the 1984 Olympic Games",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Olympic record set by Tessa Sanderson was for the Women's Javelin event",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "If an athlete wins a gold medal, they are the best in their event at the time",
+            "answer": "yes"
+          },
+          {
+            "commitment": "If an athlete sets a new Olympic record, their achievement is significant",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "question": "What is the name of the stretch of water which separates Corsica from Sardinia?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Strait of Bonifacio is a narrow stretch of water",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it separates the French island of Corsica from the Italian island of Sardinia",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it is approximately 11 kilometers wide at its narrowest point",
+            "answer": "yes"
+          },
+          {
+            "commitment": "it connects the Tyrrhenian Sea to the west with the Mediterranean Sea to the east",
+            "answer": "yes"
+          },
+          {
+            "commitment": "the strait is named after the town of Bonifacio",
+            "answer": "yes"
+          },
+          {
+            "commitment": "the town of Bonifacio is located on the southern tip of Corsica",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Strait of Bonifacio is located in the Mediterranean Sea",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Corsica is a French island",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Sardinia is an Italian island",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "geographical features can be named after nearby locations",
+            "answer": "yes"
+          },
+          {
+            "commitment": "islands can be associated with countries or territories",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "question": "Who composed the music for the oratorio, 'Belshazzar's Feast'?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "William Walton composed the music for the oratorio 'Belshazzar's Feast'",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The oratorio 'Belshazzar's Feast' was composed in 1930-1931",
+            "answer": "yes"
+          },
+          {
+            "commitment": "William Walton is a British composer",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The oratorio 'Belshazzar's Feast' is one of William Walton's most famous works",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The oratorio 'Belshazzar's Feast' sets the story of the fall of Babylon from the Book of Daniel to music",
+            "answer": "yes"
+          },
+          {
+            "commitment": "William Walton's composition is highly regarded for its innovative use of orchestration, choral writing, and vocal soloists",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "William Walton was alive in 1930-1931",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Book of Daniel is a biblical text",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The oratorio genre is a style of musical composition",
+            "answer": "yes"
+          },
+          {
+            "commitment": "Innovative use of orchestration, choral writing, and vocal soloists is a desirable trait in music composition",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "A composer is responsible for creating the music for a work",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A work can be considered a landmark in its genre based on its innovative qualities and reception",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "question": "What number on the BeauforT Scale equates to a gale?",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The Beaufort Scale ranges from 0 (calm) to 12 (hurricane)",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A gale corresponds to a wind speed of 34-47 knots (39-54 mph)",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A Beaufort number of 8 is described as a gale",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A gale has moderate to high waves and a noticeable impact on trees and structures",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "The Beaufort Scale is applicable to both sea and land conditions",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The Beaufort number is directly related to the wind speed and its effects",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "A system of measurement can be used to estimate values based on observable conditions",
+            "answer": "yes"
+          },
+          {
+            "commitment": "A definition of a term can be used to determine its equivalent value on a scale",
+            "answer": "yes"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "question": "\"Which work by Dylan Thomas starts with the words \"\"To begin at the beginning\"\"?\"",
+      "probe_results": {
+        "explicit": [
+          {
+            "commitment": "The quote \"To begin at the beginning\" is the opening line of Dylan Thomas's 1954 radio drama \"Under Milk Wood\"",
+            "answer": "yes"
+          },
+          {
+            "commitment": "\"Under Milk Wood\" is a poetic and imaginative portrayal of life in a small Welsh village",
+            "answer": "yes"
+          },
+          {
+            "commitment": "\"Under Milk Wood\" is one of Thomas's most famous and enduring works",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The opening line sets the tone for the rest of the play",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The play explores themes of identity, community, and the power of storytelling",
+            "answer": "yes"
+          }
+        ],
+        "implicit": [
+          {
+            "commitment": "Dylan Thomas wrote \"Under Milk Wood\"",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The work is a radio drama",
+            "answer": "no"
+          },
+          {
+            "commitment": "The play has a unique narrative style and language",
+            "answer": "yes"
+          }
+        ],
+        "logical_principle": [
+          {
+            "commitment": "A work can be identified by its opening line",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The tone of a work is set by its opening",
+            "answer": "yes"
+          },
+          {
+            "commitment": "The themes of a work can be inferred from its narrative style and language",
+            "answer": "yes"
+          }
+        ]
+      }
+    }
+  ]
+}
