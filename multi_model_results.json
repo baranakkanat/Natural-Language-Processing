@@ -1,276 +1,79 @@
 [
   {
-    "question": "What is the official residence of the Lord Mayor of London ?",
-    "correct_answer": "Mansion House (disambiguation)",
+    "question": "Which British entrepreneur failed to win his bid to run the National Lottery?",
+    "correct_answer": "Richard Branson",
     "models": [
       {
         "model": "llama-3.3-70b",
-        "answer": "Mansion House",
-        "explanation": "The official residence of the Lord Mayor of London is Mansion House, which is a historic building located in the City of London. It has been the official residence of the Lord Mayor since 1752 and is used for various official events, receptions, and ceremonies throughout the year. Mansion House is a symbol of the City of London's rich history and tradition, and it serves as a working office and residence for the Lord Mayor during their term in office.",
+        "answer": "Richard Branson",
+        "explanation": "Richard Branson, the founder of Virgin Group, led a bid to run the National Lottery in 2000, but his company, The People's Lottery, was unsuccessful in its attempt to secure the license. The license was instead awarded to Camelot, the existing operator. Branson's bid was seen as a strong contender, but ultimately, Camelot's experience and track record in running the lottery successfully were key factors in their success.",
         "commitments": {
           "explicit": [
-            "The official residence of the Lord Mayor of London is Mansion House",
-            "Mansion House is a historic building located in the City of London",
-            "Mansion House has been the official residence of the Lord Mayor since 1752",
-            "Mansion House is used for various official events, receptions, and ceremonies throughout the year",
-            "Mansion House serves as a working office and residence for the Lord Mayor during their term in office"
+            "Richard Branson led a bid to run the National Lottery in 2000",
+            "The People's Lottery was unsuccessful in its attempt to secure the license",
+            "The license was awarded to Camelot",
+            "Camelot was the existing operator",
+            "Branson's bid was seen as a strong contender",
+            "Camelot's experience and track record were key factors in their success"
           ],
           "implicit": [
-            "Mansion House is still in use today",
-            "The Lord Mayor of London has a term in office",
-            "The City of London has a rich history and tradition"
+            "Richard Branson is the founder of Virgin Group",
+            "The bid to run the National Lottery was competitive",
+            "Experience and track record are important factors in securing a license"
           ],
           "logical_principle": [
-            "If a building has been the official residence of a title since a certain year, it is still the official residence today",
-            "If a building is used for official events, it is likely to be an important location"
+            "past experience is a relevant factor in predicting future success",
+            "a strong track record can be a decisive factor in a competitive bidding process"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "The official residence of the Lord Mayor of London is Mansion House",
+              "commitment": "Richard Branson led a bid to run the National Lottery in 2000",
               "answer": "yes"
             },
             {
-              "commitment": "Mansion House is a historic building located in the City of London",
+              "commitment": "The People's Lottery was unsuccessful in its attempt to secure the license",
               "answer": "yes"
             },
             {
-              "commitment": "Mansion House has been the official residence of the Lord Mayor since 1752",
+              "commitment": "The license was awarded to Camelot",
               "answer": "yes"
             },
             {
-              "commitment": "Mansion House is used for various official events, receptions, and ceremonies throughout the year",
+              "commitment": "Camelot was the existing operator",
               "answer": "yes"
             },
             {
-              "commitment": "Mansion House serves as a working office and residence for the Lord Mayor during their term in office",
-              "answer": "yes"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "Mansion House is still in use today",
+              "commitment": "Branson's bid was seen as a strong contender",
               "answer": "yes"
             },
             {
-              "commitment": "The Lord Mayor of London has a term in office",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The City of London has a rich history and tradition",
-              "answer": "yes"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "If a building has been the official residence of a title since a certain year, it is still the official residence today",
-              "answer": "no"
-            },
-            {
-              "commitment": "If a building is used for official events, it is likely to be an important location",
-              "answer": "yes"
-            }
-          ]
-        },
-        "consistency_score": 0.9
-      },
-      {
-        "model": "llama-3.1-8b",
-        "answer": "The Mansion House",
-        "explanation": "The Mansion House is the official residence of the Lord Mayor of London. It is a historic townhouse located in the City of London, and it has been the official residence of the Lord Mayor since 1739. The Mansion House serves as both a residence and a venue for official events and receptions, hosting various functions throughout the year, including the Lord Mayor's Banquet.",
-        "commitments": {
-          "explicit": [
-            "The Mansion House is the official residence of the Lord Mayor of London.",
-            "It has been the official residence of the Lord Mayor since 1739."
-          ],
-          "implicit": [
-            "The Mansion House is located in the City of London.",
-            "The Mansion House hosts the Lord Mayor's Banquet."
-          ],
-          "logical_principle": [
-            "A historic townhouse can serve as a residence.",
-            "A venue can host official events and receptions."
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "The Mansion House is the official residence of the Lord Mayor of London.",
-              "answer": "yes"
-            },
-            {
-              "commitment": "It has been the official residence of the Lord Mayor since 1739.",
-              "answer": "no"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "The Mansion House is located in the City of London.",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The Mansion House hosts the Lord Mayor's Banquet.",
-              "answer": "yes"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "A historic townhouse can serve as a residence.",
-              "answer": "yes"
-            },
-            {
-              "commitment": "A venue can host official events and receptions.",
-              "answer": "yes"
-            }
-          ]
-        },
-        "consistency_score": 0.8333333333333334
-      },
-      {
-        "model": "qwen3-32b",
-        "answer": "The official residence of the Lord Mayor of London is the Mansion House.",
-        "explanation": "The Lord Mayor of London, who serves as the head of the City of London Corporation, resides at the Mansion House. This historic building, located in the City of London, has been the official residence since the 18th century and is distinct from the residence of the Mayor of London (City Hall in Southwark). The Mansion House is used for both private and public functions, reflecting the Lord Mayor's role in the financial district's governance.",
-        "commitments": {
-          "explicit": [
-            "The Lord Mayor of London resides at the Mansion House",
-            "The Mansion House has been the official residence since the 18th century",
-            "The Mansion House is located in the City of London",
-            "The Mansion House is distinct from the Mayor of London's residence (City Hall in Southwark)",
-            "The Mansion House is used for both private and public functions"
-          ],
-          "implicit": [
-            "The Lord Mayor's role in the financial district's governance is reflected in the Mansion House's functions",
-            "The distinction between the Lord Mayor of London and the Mayor of London implies different jurisdictions or roles"
-          ],
-          "logical_principle": [
-            "Historical continuity (residence since 18th century)",
-            "Geographical relevance to governance (location in City of London)",
-            "Functional duality of official residences (private/public use)",
-            "Contrast between roles based on distinct residences"
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "The Lord Mayor of London resides at the Mansion House",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The Mansion House has been the official residence since the 18th century",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The Mansion House is located in the City of London",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The Mansion House is distinct from the Mayor of London's residence (City Hall in Southwark)",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The Mansion House is used for both private and public functions",
-              "answer": "unclear"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "The Lord Mayor's role in the financial district's governance is reflected in the Mansion House's functions",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The distinction between the Lord Mayor of London and the Mayor of London implies different jurisdictions or roles",
-              "answer": "unclear"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "Historical continuity (residence since 18th century)",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Geographical relevance to governance (location in City of London)",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Functional duality of official residences (private/public use)",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Contrast between roles based on distinct residences",
-              "answer": "unclear"
-            }
-          ]
-        },
-        "consistency_score": 0.0
-      }
-    ]
-  },
-  {
-    "question": "How many times was Wyatt Earp shot?",
-    "correct_answer": "None",
-    "models": [
-      {
-        "model": "llama-3.3-70b",
-        "answer": "0 (in gunfights), but he was grazed or hit by bullets on at least 2 occasions, and possibly more, with the most notable being a grazing shot to his back and a bullet that passed through his coat.",
-        "explanation": "Wyatt Earp was involved in several gunfights throughout his life, but there is no recorded instance of him being directly shot in a gunfight. However, he did suffer some close calls, including being grazed by a bullet during the shootout at the O.K. Corral's aftermath, and having a bullet pass through his coat. Despite being in numerous dangerous situations, Earp managed to avoid being seriously injured by gunfire.",
-        "commitments": {
-          "explicit": [
-            "Wyatt Earp was involved in several gunfights throughout his life",
-            "there is no recorded instance of him being directly shot in a gunfight",
-            "he did suffer some close calls, including being grazed by a bullet during the shootout at the O.K. Corral's aftermath",
-            "having a bullet pass through his coat",
-            "Earp managed to avoid being seriously injured by gunfire"
-          ],
-          "implicit": [
-            "Wyatt Earp was in numerous dangerous situations",
-            "he was lucky or skilled enough to avoid being shot in gunfights"
-          ],
-          "logical_principle": [
-            "correlation between being in gunfights and the likelihood of being shot",
-            "the concept of 'close calls' implying a level of risk or danger"
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "Wyatt Earp was involved in several gunfights throughout his life",
-              "answer": "yes"
-            },
-            {
-              "commitment": "there is no recorded instance of him being directly shot in a gunfight",
-              "answer": "yes"
-            },
-            {
-              "commitment": "he did suffer some close calls, including being grazed by a bullet during the shootout at the O.K. Corral's aftermath",
-              "answer": "yes"
-            },
-            {
-              "commitment": "having a bullet pass through his coat",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Earp managed to avoid being seriously injured by gunfire",
+              "commitment": "Camelot's experience and track record were key factors in their success",
               "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "Wyatt Earp was in numerous dangerous situations",
+              "commitment": "Richard Branson is the founder of Virgin Group",
               "answer": "yes"
             },
             {
-              "commitment": "he was lucky or skilled enough to avoid being shot in gunfights",
+              "commitment": "The bid to run the National Lottery was competitive",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Experience and track record are important factors in securing a license",
               "answer": "yes"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "correlation between being in gunfights and the likelihood of being shot",
+              "commitment": "past experience is a relevant factor in predicting future success",
               "answer": "yes"
             },
             {
-              "commitment": "the concept of 'close calls' implying a level of risk or danger",
+              "commitment": "a strong track record can be a decisive factor in a competitive bidding process",
               "answer": "yes"
             }
           ]
@@ -279,242 +82,40 @@
       },
       {
         "model": "llama-3.1-8b",
-        "answer": "At least 9 times",
-        "explanation": "Wyatt Earp was involved in several gunfights throughout his life, and it is documented that he was shot multiple times. The exact number of times he was shot is not universally agreed upon, but it is generally accepted that he was shot at least 9 times. This includes shots he received during the Gunfight at the O.K. Corral, as well as other altercations.",
+        "answer": "Richard Branson",
+        "explanation": "Richard Branson, the founder of Virgin Group, was one of the bidders to run the National Lottery in the UK. However, the contract was awarded to Camelot Group in 1994.",
         "commitments": {
           "explicit": [
-            "Wyatt Earp was shot multiple times",
-            "Wyatt Earp was shot at least 9 times"
+            "Richard Branson failed to win his bid to run the National Lottery",
+            "The contract was awarded to Camelot Group in 1994"
           ],
           "implicit": [
-            "Wyatt Earp was involved in several gunfights throughout his life",
-            "The exact number of times he was shot is not universally agreed upon"
+            "Richard Branson was a bidder to run the National Lottery in the UK"
           ],
           "logical_principle": [
-            "Documented information is generally accepted as true"
+            "Bidders for a contract may not all win the contract"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "Wyatt Earp was shot multiple times",
+              "commitment": "Richard Branson failed to win his bid to run the National Lottery",
               "answer": "yes"
             },
             {
-              "commitment": "Wyatt Earp was shot at least 9 times",
-              "answer": "no"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "Wyatt Earp was involved in several gunfights throughout his life",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The exact number of times he was shot is not universally agreed upon",
-              "answer": "yes"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "Documented information is generally accepted as true",
-              "answer": "yes"
-            }
-          ]
-        },
-        "consistency_score": 0.8
-      },
-      {
-        "model": "qwen3-32b",
-        "answer": "3",
-        "explanation": "Wyatt Earp was shot three times in his life. The first occurred during the 1881 O.K. Corral shootout in Tombstone, Arizona. The second was in 1882 when he was shot in the back by Frank Stilwell, which led to complications but he survived. The third happened in 1887 during a confrontation in Tombstone. These three incidents are the most well-documented and widely accepted accounts of him being shot.",
-        "commitments": {
-          "explicit": [
-            "Wyatt Earp was shot three times in his life.",
-            "The first occurred during the 1881 O.K. Corral shootout in Tombstone, Arizona.",
-            "The second was in 1882 when he was shot in the back by Frank Stilwell.",
-            "The third happened in 1887 during a confrontation in Tombstone.",
-            "These three incidents are the most well-documented and widely accepted accounts of him being shot."
-          ],
-          "implicit": [
-            "There may be other accounts of Wyatt Earp being shot, but they are not considered reliable or widely accepted."
-          ],
-          "logical_principle": [
-            "Inductive reasoning based on evidence and consensus: the most well-documented and widely accepted accounts are considered accurate."
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "Wyatt Earp was shot three times in his life.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The first occurred during the 1881 O.K. Corral shootout in Tombstone, Arizona.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The second was in 1882 when he was shot in the back by Frank Stilwell.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The third happened in 1887 during a confrontation in Tombstone.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "These three incidents are the most well-documented and widely accepted accounts of him being shot.",
-              "answer": "unclear"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "There may be other accounts of Wyatt Earp being shot, but they are not considered reliable or widely accepted.",
-              "answer": "unclear"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "Inductive reasoning based on evidence and consensus: the most well-documented and widely accepted accounts are considered accurate.",
-              "answer": "unclear"
-            }
-          ]
-        },
-        "consistency_score": 0.0
-      }
-    ]
-  },
-  {
-    "question": "What is the correct name for a punt pole",
-    "correct_answer": "Quant (disambiguation)",
-    "models": [
-      {
-        "model": "llama-3.3-70b",
-        "answer": "Quant pole",
-        "explanation": "A quant pole is the correct name for a punt pole. The term \"quant\" is derived from the Latin word \"quantus,\" meaning \"how much\" or \"measure,\" but in this context, it refers to a long, sturdy pole used to propel and steer a punt, a type of flat-bottomed boat. The quant pole is typically made of wood or other materials and is used to push against the riverbed or lake floor to move the punt through the water. It is an essential tool for navigating and maneuvering punts, especially in shallow or narrow waterways.",
-        "commitments": {
-          "explicit": [
-            "A quant pole is the correct name for a punt pole",
-            "The term 'quant' is derived from the Latin word 'quantus,' meaning 'how much' or 'measure'",
-            "The quant pole is typically made of wood or other materials",
-            "The quant pole is used to push against the riverbed or lake floor to move the punt through the water",
-            "The quant pole is an essential tool for navigating and maneuvering punts, especially in shallow or narrow waterways"
-          ],
-          "implicit": [
-            "The Latin word 'quantus' is relevant to the context of a punt pole",
-            "Punts are a type of flat-bottomed boat",
-            "Punts are often used in shallow or narrow waterways"
-          ],
-          "logical_principle": [
-            "The etymology of a word can provide insight into its meaning or usage",
-            "The characteristics of an object can be inferred from its purpose or function"
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "A quant pole is the correct name for a punt pole",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The term 'quant' is derived from the Latin word 'quantus,' meaning 'how much' or 'measure'",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The quant pole is typically made of wood or other materials",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The quant pole is used to push against the riverbed or lake floor to move the punt through the water",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The quant pole is an essential tool for navigating and maneuvering punts, especially in shallow or narrow waterways",
+              "commitment": "The contract was awarded to Camelot Group in 1994",
               "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "The Latin word 'quantus' is relevant to the context of a punt pole",
-              "answer": "no"
-            },
-            {
-              "commitment": "Punts are a type of flat-bottomed boat",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Punts are often used in shallow or narrow waterways",
+              "commitment": "Richard Branson was a bidder to run the National Lottery in the UK",
               "answer": "yes"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "The etymology of a word can provide insight into its meaning or usage",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The characteristics of an object can be inferred from its purpose or function",
-              "answer": "yes"
-            }
-          ]
-        },
-        "consistency_score": 0.9
-      },
-      {
-        "model": "llama-3.1-8b",
-        "answer": "A punt pole is also known as a punt stick or a punt stick handle.",
-        "explanation": "The term 'punt pole' is commonly used in the UK and other parts of the English-speaking world to refer to a long, sturdy pole used to propel a punt (a flat-bottomed boat) through the water. However, in some regions, particularly in the US, it is more commonly referred to as a punt stick or punt stick handle. This is because the term 'punt pole' can sometimes be confused with a pole used for other types of boats, such as a rowing boat.",
-        "commitments": {
-          "explicit": [
-            "a punt pole is a long, sturdy pole",
-            "a punt pole is used to propel a punt through the water",
-            "a punt pole is commonly used in the UK and other parts of the English-speaking world",
-            "a punt pole is also known as a punt stick or a punt stick handle"
-          ],
-          "implicit": [
-            "a punt is a flat-bottomed boat",
-            "a punt pole is not used for rowing boats"
-          ],
-          "logical_principle": [
-            "terms can have different names in different regions",
-            "terms can be confused with other similar terms"
-          ]
-        },
-        "probe_results": {
-          "explicit": [
-            {
-              "commitment": "a punt pole is a long, sturdy pole",
-              "answer": "yes"
-            },
-            {
-              "commitment": "a punt pole is used to propel a punt through the water",
-              "answer": "yes"
-            },
-            {
-              "commitment": "a punt pole is commonly used in the UK and other parts of the English-speaking world",
-              "answer": "yes"
-            },
-            {
-              "commitment": "a punt pole is also known as a punt stick or a punt stick handle",
-              "answer": "yes"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "a punt is a flat-bottomed boat",
-              "answer": "yes"
-            },
-            {
-              "commitment": "a punt pole is not used for rowing boats",
-              "answer": "yes"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "terms can have different names in different regions",
-              "answer": "yes"
-            },
-            {
-              "commitment": "terms can be confused with other similar terms",
+              "commitment": "Bidders for a contract may not all win the contract",
               "answer": "yes"
             }
           ]
@@ -523,153 +124,500 @@
       },
       {
         "model": "qwen3-32b",
-        "answer": "The correct name for a punt pole is \"goalposts.\"",
-        "explanation": "In sports like rugby, when a player takes a place kick (such as a conversion or penalty kick), the ball is held in place between two vertical poles known as goalposts. These poles support the ball at the correct height for the kicker. While American football does not use such poles for punts, the term \"goalposts\" is the standard name for the structure in rugby that serves this purpose. The term \"punt pole\" is not an official term in any major sport, but if referring to the rugby setup, \"goalposts\" is the correct designation.",
+        "answer": "James Caan",
+        "explanation": "James Caan, a British entrepreneur and investor, was part of a consortium that attempted to bid for the National Lottery's operating contract in 2019. The bid, which aimed to introduce a new operator, was ultimately unsuccessful. The UK government awarded the contract to Camelot UK Lotteries, the existing operator, after concluding that their bid better met the required criteria. Caan's involvement in the failed bid made him a notable figure in the controversy surrounding the lottery's management.",
         "commitments": {
           "explicit": [
-            "In rugby, the vertical poles used for place kicks are called 'goalposts'.",
-            "American football does not use such poles for punts.",
-            "'Punt pole' is not an official term in any major sport.",
-            "The term 'goalposts' is the standard name for the structure in rugby that supports the ball for kicks."
+            "James Caan was part of a consortium that attempted to bid for the National Lottery's operating contract in 2019",
+            "The bid was ultimately unsuccessful",
+            "The UK government awarded the contract to Camelot UK Lotteries",
+            "The government concluded Camelot's bid better met the required criteria"
           ],
           "implicit": [
-            "The function of goalposts in rugby is to hold the ball at the correct height for place kicks.",
-            "Rugby and American football are distinct sports with different equipment terminology.",
-            "The structure described is specific to rugby's rules and gameplay."
+            "The consortium's bid did not meet the required criteria as effectively as Camelot's",
+            "The National Lottery's operating contract was not awarded to a new operator"
           ],
           "logical_principle": [
-            "Terminology is determined by the official rules of a sport.",
-            "Differentiation between sports requires contextual analysis of equipment usage.",
-            "Unofficial terms lack recognition in formal sports contexts."
+            "Decisions are made based on which option best meets specified criteria",
+            "Unsuccessful bids are those that do not outperform competing bids in evaluation criteria"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "In rugby, the vertical poles used for place kicks are called 'goalposts'.",
-              "answer": "unclear"
+              "commitment": "James Caan was part of a consortium that attempted to bid for the National Lottery's operating contract in 2019",
+              "answer": "no"
             },
             {
-              "commitment": "American football does not use such poles for punts.",
-              "answer": "unclear"
+              "commitment": "The bid was ultimately unsuccessful",
+              "answer": "yes"
             },
             {
-              "commitment": "'Punt pole' is not an official term in any major sport.",
-              "answer": "unclear"
+              "commitment": "The UK government awarded the contract to Camelot UK Lotteries",
+              "answer": "yes"
             },
             {
-              "commitment": "The term 'goalposts' is the standard name for the structure in rugby that supports the ball for kicks.",
-              "answer": "unclear"
+              "commitment": "The government concluded Camelot's bid better met the required criteria",
+              "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "The function of goalposts in rugby is to hold the ball at the correct height for place kicks.",
-              "answer": "unclear"
+              "commitment": "The consortium's bid did not meet the required criteria as effectively as Camelot's",
+              "answer": "yes"
             },
             {
-              "commitment": "Rugby and American football are distinct sports with different equipment terminology.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "The structure described is specific to rugby's rules and gameplay.",
-              "answer": "unclear"
+              "commitment": "The National Lottery's operating contract was not awarded to a new operator",
+              "answer": "no"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "Terminology is determined by the official rules of a sport.",
-              "answer": "unclear"
+              "commitment": "Decisions are made based on which option best meets specified criteria",
+              "answer": "yes"
             },
             {
-              "commitment": "Differentiation between sports requires contextual analysis of equipment usage.",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Unofficial terms lack recognition in formal sports contexts.",
-              "answer": "unclear"
+              "commitment": "Unsuccessful bids are those that do not outperform competing bids in evaluation criteria",
+              "answer": "yes"
             }
           ]
         },
-        "consistency_score": 0.0
+        "consistency_score": 0.75
       }
     ]
   },
   {
-    "question": "What mountain system in the USA stretches over 1500 miles south to Alabama, through which pass the Hudson and Mohawk Valleys?",
-    "correct_answer": "Appalachian mountain range",
+    "question": "Artemisinin and derivatives are drugs found to act especially well on which disease?",
+    "correct_answer": "Malariologist",
     "models": [
       {
         "model": "llama-3.3-70b",
-        "answer": "Appalachian Mountains",
-        "explanation": "The Appalachian Mountains are a major mountain system in the USA that stretches over 1500 miles from Canada to Alabama. They pass through several states, including New York, where the Hudson and Mohawk Valleys are located. The Hudson Valley is a region in eastern New York that follows the Hudson River, while the Mohawk Valley is a region in central New York that follows the Mohawk River. Both valleys are situated within the Appalachian Mountains, making this mountain system the correct answer.",
+        "answer": "Malaria",
+        "explanation": "Artemisinin and its derivatives are a class of antimalarial drugs that have been found to be highly effective in treating malaria, particularly the severe forms caused by Plasmodium falciparum. These drugs work by interfering with the parasite's ability to replicate and cause damage to the red blood cells, ultimately leading to the parasite's death. The discovery of artemisinin and its derivatives has been a significant breakthrough in the treatment of malaria, and they are now widely used in combination therapies to treat the disease. The World Health Organization (WHO) recommends the use of artemisinin-based combination therapies (ACTs) as the first-line treatment for uncomplicated malaria, highlighting the importance of these drugs in the fight against this disease.",
         "commitments": {
           "explicit": [
-            "The Appalachian Mountains are a major mountain system in the USA",
-            "The Appalachian Mountains stretch over 1500 miles from Canada to Alabama",
-            "The Appalachian Mountains pass through several states, including New York",
-            "The Hudson Valley is a region in eastern New York that follows the Hudson River",
-            "The Mohawk Valley is a region in central New York that follows the Mohawk River",
-            "Both valleys are situated within the Appalachian Mountains"
+            "Artemisinin and its derivatives are a class of antimalarial drugs",
+            "They are highly effective in treating malaria",
+            "They work by interfering with the parasite's ability to replicate and cause damage to the red blood cells",
+            "The World Health Organization (WHO) recommends the use of artemisinin-based combination therapies (ACTs) as the first-line treatment for uncomplicated malaria"
           ],
           "implicit": [
-            "The Appalachian Mountains are the only mountain system that stretches over 1500 miles from Canada to Alabama",
-            "The Hudson and Mohawk Valleys are significant geographical features",
-            "New York is a state in the USA"
+            "Artemisinin and its derivatives are more effective than other treatments for severe forms of malaria",
+            "The use of artemisinin-based combination therapies (ACTs) is a standard practice in treating malaria",
+            "Malaria is a significant disease that requires effective treatment"
           ],
           "logical_principle": [
-            "Geographical features can be used to identify mountain systems",
-            "Mountain systems can be defined by their location and extent"
+            "The effectiveness of a treatment is determined by its ability to target the underlying cause of a disease",
+            "Combination therapies can be more effective than single-drug treatments",
+            "Recommendations from reputable health organizations are based on evidence and expert consensus"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "The Appalachian Mountains are a major mountain system in the USA",
+              "commitment": "Artemisinin and its derivatives are a class of antimalarial drugs",
               "answer": "yes"
             },
             {
-              "commitment": "The Appalachian Mountains stretch over 1500 miles from Canada to Alabama",
+              "commitment": "They are highly effective in treating malaria",
               "answer": "yes"
             },
             {
-              "commitment": "The Appalachian Mountains pass through several states, including New York",
+              "commitment": "They work by interfering with the parasite's ability to replicate and cause damage to the red blood cells",
               "answer": "yes"
             },
             {
-              "commitment": "The Hudson Valley is a region in eastern New York that follows the Hudson River",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The Mohawk Valley is a region in central New York that follows the Mohawk River",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Both valleys are situated within the Appalachian Mountains",
+              "commitment": "The World Health Organization (WHO) recommends the use of artemisinin-based combination therapies (ACTs) as the first-line treatment for uncomplicated malaria",
               "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "The Appalachian Mountains are the only mountain system that stretches over 1500 miles from Canada to Alabama",
-              "answer": "no"
-            },
-            {
-              "commitment": "The Hudson and Mohawk Valleys are significant geographical features",
+              "commitment": "Artemisinin and its derivatives are more effective than other treatments for severe forms of malaria",
               "answer": "yes"
             },
             {
-              "commitment": "New York is a state in the USA",
+              "commitment": "The use of artemisinin-based combination therapies (ACTs) is a standard practice in treating malaria",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Malaria is a significant disease that requires effective treatment",
               "answer": "yes"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "Geographical features can be used to identify mountain systems",
+              "commitment": "The effectiveness of a treatment is determined by its ability to target the underlying cause of a disease",
               "answer": "yes"
             },
             {
-              "commitment": "Mountain systems can be defined by their location and extent",
+              "commitment": "Combination therapies can be more effective than single-drug treatments",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Recommendations from reputable health organizations are based on evidence and expert consensus",
+              "answer": "yes"
+            }
+          ]
+        },
+        "consistency_score": 1.0
+      },
+      {
+        "model": "llama-3.1-8b",
+        "answer": "Malaria",
+        "explanation": "Artemisinin and its derivatives are a class of antimalarial drugs that have been found to be highly effective in treating malaria, particularly the most deadly form of the disease, Plasmodium falciparum. They work by targeting the parasite's cell membrane and disrupting its ability to multiply, ultimately leading to the death of the parasite. Artemisinin-based combination therapies (ACTs) have become the standard treatment for uncomplicated malaria in many parts of the world due to their high efficacy and relatively low toxicity.",
+        "commitments": {
+          "explicit": [
+            "Artemisinin and its derivatives are a class of antimalarial drugs",
+            "Artemisinin-based combination therapies (ACTs) have become the standard treatment for uncomplicated malaria in many parts of the world"
+          ],
+          "implicit": [
+            "Artemisinin and derivatives are highly effective in treating malaria",
+            "Artemisinin and derivatives are effective against Plasmodium falciparum"
+          ],
+          "logical_principle": [
+            "drugs that target a parasite's cell membrane can disrupt its ability to multiply",
+            "high efficacy and relatively low toxicity are desirable traits in a treatment"
+          ]
+        },
+        "probe_results": {
+          "explicit": [
+            {
+              "commitment": "Artemisinin and its derivatives are a class of antimalarial drugs",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Artemisinin-based combination therapies (ACTs) have become the standard treatment for uncomplicated malaria in many parts of the world",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Artemisinin and derivatives are highly effective in treating malaria",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Artemisinin and derivatives are effective against Plasmodium falciparum",
+              "answer": "yes"
+            }
+          ],
+          "logical_principle": [
+            {
+              "commitment": "drugs that target a parasite's cell membrane can disrupt its ability to multiply",
+              "answer": "yes"
+            },
+            {
+              "commitment": "high efficacy and relatively low toxicity are desirable traits in a treatment",
+              "answer": "yes"
+            }
+          ]
+        },
+        "consistency_score": 1.0
+      },
+      {
+        "model": "qwen3-32b",
+        "answer": "Malaria",
+        "explanation": "Artemisinin and its derivatives are primarily used to treat malaria, particularly caused by Plasmodium falciparum. They work by rapidly reducing the number of parasites in the blood, making them highly effective against uncomplicated malaria. The World Health Organization (WHO) recommends artemisinin-based combination therapies (ACTs) as the first-line treatment for this disease. Their mechanism involves disrupting the parasite's cellular processes, leading to its death. Artemisinin derivatives are not typically used for other diseases like tuberculosis or viral infections.",
+        "commitments": {
+          "explicit": [
+            "Artemisinin and its derivatives are primarily used to treat malaria",
+            "They are effective against Plasmodium falciparum",
+            "Artemisinin-based combination therapies (ACTs) are recommended by WHO as first-line treatment",
+            "They rapidly reduce parasites in the blood",
+            "Their mechanism involves disrupting the parasite's cellular processes",
+            "Artemisinin derivatives are not typically used for tuberculosis or viral infections"
+          ],
+          "implicit": [
+            "Artemisinin derivatives are more effective against malaria than other diseases",
+            "Uncomplicated malaria is a distinct category from severe/complicated malaria",
+            "Alternative treatments exist for diseases other than malaria",
+            "Parasite reduction in the blood correlates with treatment effectiveness"
+          ],
+          "logical_principle": [
+            "Authority-based reasoning (WHO recommendations)",
+            "Causal reasoning (mechanism of action leading to effectiveness)",
+            "Exclusion principle (not used for non-malaria diseases implies specificity)",
+            "Comparative effectiveness reasoning"
+          ]
+        },
+        "probe_results": {
+          "explicit": [
+            {
+              "commitment": "Artemisinin and its derivatives are primarily used to treat malaria",
+              "answer": "yes"
+            },
+            {
+              "commitment": "They are effective against Plasmodium falciparum",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Artemisinin-based combination therapies (ACTs) are recommended by WHO as first-line treatment",
+              "answer": "yes"
+            },
+            {
+              "commitment": "They rapidly reduce parasites in the blood",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Their mechanism involves disrupting the parasite's cellular processes",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Artemisinin derivatives are not typically used for tuberculosis or viral infections",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Artemisinin derivatives are more effective against malaria than other diseases",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Uncomplicated malaria is a distinct category from severe/complicated malaria",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Alternative treatments exist for diseases other than malaria",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Parasite reduction in the blood correlates with treatment effectiveness",
+              "answer": "yes"
+            }
+          ],
+          "logical_principle": [
+            {
+              "commitment": "Authority-based reasoning (WHO recommendations)",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Causal reasoning (mechanism of action leading to effectiveness)",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Exclusion principle (not used for non-malaria diseases implies specificity)",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Comparative effectiveness reasoning",
+              "answer": "no"
+            }
+          ]
+        },
+        "consistency_score": 0.9285714285714286
+      }
+    ]
+  },
+  {
+    "question": "For a point each, name the 4 Cs of diamond grading",
+    "correct_answer": "Carat, Cut, Color, Clarity",
+    "models": [
+      {
+        "model": "llama-3.3-70b",
+        "answer": "Carat, Color, Clarity, Cut",
+        "explanation": "The 4 Cs of diamond grading are a set of standards used to evaluate the quality and value of diamonds. Each \"C\" represents a different characteristic of the diamond: Carat refers to the weight of the diamond, with larger diamonds being more rare and valuable. Color grades the lack of color in the diamond, with colorless diamonds being more desirable. Clarity measures the presence or absence of inclusions and blemishes, with flawless diamonds being the most valuable. Cut refers to the proportions, symmetry, and polish of the diamond, with well-cut diamonds refracting light better and appearing more brilliant. These four characteristics are considered the most important factors in determining the quality and value of a diamond.",
+        "commitments": {
+          "explicit": [
+            "The 4 Cs of diamond grading are a set of standards used to evaluate the quality and value of diamonds",
+            "Carat refers to the weight of the diamond",
+            "Color grades the lack of color in the diamond",
+            "Clarity measures the presence or absence of inclusions and blemishes",
+            "Cut refers to the proportions, symmetry, and polish of the diamond",
+            "These four characteristics are considered the most important factors in determining the quality and value of a diamond"
+          ],
+          "implicit": [
+            "Larger diamonds are more rare",
+            "Colorless diamonds are more desirable",
+            "Flawless diamonds are the most valuable",
+            "Well-cut diamonds refract light better",
+            "Well-cut diamonds appear more brilliant"
+          ],
+          "logical_principle": [
+            "The value of a diamond is determined by its characteristics",
+            "The rarity of a characteristic affects its value",
+            "The quality of a diamond's characteristics affects its appearance"
+          ]
+        },
+        "probe_results": {
+          "explicit": [
+            {
+              "commitment": "The 4 Cs of diamond grading are a set of standards used to evaluate the quality and value of diamonds",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Carat refers to the weight of the diamond",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Color grades the lack of color in the diamond",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Clarity measures the presence or absence of inclusions and blemishes",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Cut refers to the proportions, symmetry, and polish of the diamond",
+              "answer": "yes"
+            },
+            {
+              "commitment": "These four characteristics are considered the most important factors in determining the quality and value of a diamond",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Larger diamonds are more rare",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Colorless diamonds are more desirable",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Flawless diamonds are the most valuable",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Well-cut diamonds refract light better",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Well-cut diamonds appear more brilliant",
+              "answer": "yes"
+            }
+          ],
+          "logical_principle": [
+            {
+              "commitment": "The value of a diamond is determined by its characteristics",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The rarity of a characteristic affects its value",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The quality of a diamond's characteristics affects its appearance",
+              "answer": "yes"
+            }
+          ]
+        },
+        "consistency_score": 1.0
+      },
+      {
+        "model": "llama-3.1-8b",
+        "answer": "Carat, Color, Clarity, and Cut",
+        "explanation": "The 4 Cs of diamond grading are widely recognized and used by the Gemological Institute of America (GIA) and other reputable organizations to evaluate the quality and value of diamonds.",
+        "commitments": {
+          "explicit": [
+            "The 4 Cs of diamond grading are Carat, Color, Clarity, and Cut"
+          ],
+          "implicit": [
+            "The 4 Cs are widely recognized and used by reputable organizations"
+          ],
+          "logical_principle": [
+            "Reputable organizations use widely recognized standards"
+          ]
+        },
+        "probe_results": {
+          "explicit": [
+            {
+              "commitment": "The 4 Cs of diamond grading are Carat, Color, Clarity, and Cut",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "The 4 Cs are widely recognized and used by reputable organizations",
+              "answer": "yes"
+            }
+          ],
+          "logical_principle": [
+            {
+              "commitment": "Reputable organizations use widely recognized standards",
+              "answer": "yes"
+            }
+          ]
+        },
+        "consistency_score": 1.0
+      }
+    ]
+  },
+  {
+    "question": "Liverpool played against whom in the first ever \u2018Match of the Day\u2019 in 1964?",
+    "correct_answer": "Arsenal Football Club",
+    "models": [
+      {
+        "model": "llama-3.3-70b",
+        "answer": "Arsenal",
+        "explanation": "The first ever 'Match of the Day' was broadcast on August 22, 1964, and it featured a match between Liverpool and Arsenal at Anfield, Liverpool's home stadium. This historic broadcast marked the beginning of the long-running BBC football program, which has since become a staple of British sports television.",
+        "commitments": {
+          "explicit": [
+            "The first ever 'Match of the Day' was broadcast on August 22, 1964",
+            "The match featured Liverpool and Arsenal",
+            "The match was at Anfield",
+            "Anfield is Liverpool's home stadium",
+            "The broadcast marked the beginning of the long-running BBC football program",
+            "The program has since become a staple of British sports television"
+          ],
+          "implicit": [
+            "Liverpool and Arsenal are football teams",
+            "The BBC is a television network",
+            "The match was played in 1964"
+          ],
+          "logical_principle": [
+            "cause and effect relationship between the broadcast and the program's longevity",
+            "relationship between a team and its home stadium"
+          ]
+        },
+        "probe_results": {
+          "explicit": [
+            {
+              "commitment": "The first ever 'Match of the Day' was broadcast on August 22, 1964",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The match featured Liverpool and Arsenal",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The match was at Anfield",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Anfield is Liverpool's home stadium",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The broadcast marked the beginning of the long-running BBC football program",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The program has since become a staple of British sports television",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Liverpool and Arsenal are football teams",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The BBC is a television network",
+              "answer": "yes"
+            },
+            {
+              "commitment": "The match was played in 1964",
+              "answer": "no"
+            }
+          ],
+          "logical_principle": [
+            {
+              "commitment": "cause and effect relationship between the broadcast and the program's longevity",
+              "answer": "yes"
+            },
+            {
+              "commitment": "relationship between a team and its home stadium",
               "answer": "yes"
             }
           ]
@@ -678,317 +626,261 @@
       },
       {
         "model": "llama-3.1-8b",
-        "answer": "The Appalachian Mountains",
-        "explanation": "The Appalachian Mountains are a major mountain system in the eastern United States, stretching from Quebec and Newfoundland in Canada to Alabama in the United States. They cover a vast area of over 2,400 kilometers (1,500 miles) and pass through several states, including New York. The Hudson and Mohawk Valleys are indeed located within the Appalachian Mountains in New York. The Appalachian Mountains are a significant geological feature in the eastern United States, and their range includes various sub-ranges, such as the Great Smoky Mountains and the Blue Ridge Mountains.",
+        "answer": "Arsenal",
+        "explanation": "The first ever 'Match of the Day' was broadcast on November 22, 1964, and it featured a First Division match between Liverpool and Arsenal.",
         "commitments": {
           "explicit": [
-            "The Appalachian Mountains stretch over 1500 miles south to Alabama",
-            "The Hudson and Mohawk Valleys pass through the Appalachian Mountains"
+            "Liverpool played against Arsenal in the first ever 'Match of the Day'",
+            "The first ever 'Match of the Day' was broadcast on November 22, 1964"
           ],
           "implicit": [
-            "The Appalachian Mountains cover a vast area of over 2,400 kilometers",
-            "The Appalachian Mountains pass through New York"
+            "Liverpool played in the First Division in 1964",
+            "Arsenal played in the First Division in 1964"
           ],
           "logical_principle": [
-            "Geographical features can be identified by their location and extent",
-            "Mountain ranges can be characterized by their sub-ranges"
+            "If a team played in the first ever 'Match of the Day', then they must have played in the First Division at that time"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "The Appalachian Mountains stretch over 1500 miles south to Alabama",
+              "commitment": "Liverpool played against Arsenal in the first ever 'Match of the Day'",
+              "answer": "no"
+            },
+            {
+              "commitment": "The first ever 'Match of the Day' was broadcast on November 22, 1964",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Liverpool played in the First Division in 1964",
               "answer": "yes"
             },
             {
-              "commitment": "The Hudson and Mohawk Valleys pass through the Appalachian Mountains",
+              "commitment": "Arsenal played in the First Division in 1964",
               "answer": "no"
             }
           ],
-          "implicit": [
-            {
-              "commitment": "The Appalachian Mountains cover a vast area of over 2,400 kilometers",
-              "answer": "yes"
-            },
-            {
-              "commitment": "The Appalachian Mountains pass through New York",
-              "answer": "yes"
-            }
-          ],
           "logical_principle": [
             {
-              "commitment": "Geographical features can be identified by their location and extent",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Mountain ranges can be characterized by their sub-ranges",
+              "commitment": "If a team played in the first ever 'Match of the Day', then they must have played in the First Division at that time",
               "answer": "yes"
             }
           ]
         },
-        "consistency_score": 0.8333333333333334
+        "consistency_score": 0.6
       },
       {
         "model": "qwen3-32b",
-        "answer": "Appalachian Mountains",
-        "explanation": "The Appalachian Mountains are a major mountain system in the eastern United States that extend approximately 1,500 miles from the Canadian provinces of Newfoundland and Labrador down through the southeastern U.S., including Alabama. The Hudson Valley and Mohawk Valley, both located in New York, are significant geographic features within this mountain system. These valleys are part of the broader Appalachian landscape, carved by rivers and historically important for transportation and trade. The Appalachian range is the only U.S. mountain system that matches the described geographic scope and includes these valleys.",
+        "answer": "Manchester United",
+        "explanation": "The first ever broadcast of 'Match of the Day' by the BBC took place on September 2, 1964. The featured match was Liverpool versus Manchester United, which ended in a 2-2 draw. This game was selected as the inaugural episode due to the high-profile rivalry between the two clubs and the significance of both teams in English football at the time. Historical records and BBC archives confirm this as the correct opponent.",
         "commitments": {
           "explicit": [
-            "The Appalachian Mountains extend approximately 1,500 miles from Newfoundland and Labrador to Alabama.",
-            "The Hudson Valley and Mohawk Valley are located in New York and are part of the Appalachian Mountains.",
-            "The Appalachian Mountains are the only U.S. mountain system that includes the Hudson and Mohawk Valleys and matches the described geographic scope."
+            "The first ever broadcast of 'Match of the Day' by the BBC took place on September 2, 1964.",
+            "The featured match was Liverpool versus Manchester United, which ended in a 2-2 draw.",
+            "Historical records and BBC archives confirm this as the correct opponent."
           ],
           "implicit": [
-            "Other U.S. mountain systems do not include the Hudson and Mohawk Valleys or span the described geographic range.",
-            "The Appalachian Mountains' valleys were historically significant for transportation and trade."
+            "The high-profile rivalry between Liverpool and Manchester United existed in 1964.",
+            "Both Liverpool and Manchester United were significant teams in English football in 1964."
           ],
           "logical_principle": [
-            "Elimination reasoning (only the Appalachian Mountains fit the criteria).",
-            "Categorization of geographic features (valleys as part of the mountain system)."
+            "Causal reasoning: The selection of the match was due to the rivalry and significance of the teams.",
+            "Appeal to authority: Reliance on historical records and BBC archives for confirmation."
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "The Appalachian Mountains extend approximately 1,500 miles from Newfoundland and Labrador to Alabama.",
-              "answer": "unclear"
+              "commitment": "The first ever broadcast of 'Match of the Day' by the BBC took place on September 2, 1964.",
+              "answer": "no"
             },
             {
-              "commitment": "The Hudson Valley and Mohawk Valley are located in New York and are part of the Appalachian Mountains.",
-              "answer": "unclear"
+              "commitment": "The featured match was Liverpool versus Manchester United, which ended in a 2-2 draw.",
+              "answer": "yes"
             },
             {
-              "commitment": "The Appalachian Mountains are the only U.S. mountain system that includes the Hudson and Mohawk Valleys and matches the described geographic scope.",
-              "answer": "unclear"
+              "commitment": "Historical records and BBC archives confirm this as the correct opponent.",
+              "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "Other U.S. mountain systems do not include the Hudson and Mohawk Valleys or span the described geographic range.",
-              "answer": "unclear"
+              "commitment": "The high-profile rivalry between Liverpool and Manchester United existed in 1964.",
+              "answer": "no"
             },
             {
-              "commitment": "The Appalachian Mountains' valleys were historically significant for transportation and trade.",
-              "answer": "unclear"
+              "commitment": "Both Liverpool and Manchester United were significant teams in English football in 1964.",
+              "answer": "yes"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "Elimination reasoning (only the Appalachian Mountains fit the criteria).",
-              "answer": "unclear"
+              "commitment": "Causal reasoning: The selection of the match was due to the rivalry and significance of the teams.",
+              "answer": "yes"
             },
             {
-              "commitment": "Categorization of geographic features (valleys as part of the mountain system).",
-              "answer": "unclear"
+              "commitment": "Appeal to authority: Reliance on historical records and BBC archives for confirmation.",
+              "answer": "yes"
             }
           ]
         },
-        "consistency_score": 0.0
+        "consistency_score": 0.7142857142857143
       }
     ]
   },
   {
-    "question": "In which country is the city of Kandahar?",
-    "correct_answer": "Afghanistan",
+    "question": "Which US President was born Lesley Lynch King Jr?",
+    "correct_answer": "President Gerald R. Ford",
     "models": [
       {
         "model": "llama-3.3-70b",
-        "answer": "Afghanistan",
-        "explanation": "Kandahar is a city located in the southern part of Afghanistan, and it is the second-largest city in the country. It has historical and cultural significance, serving as a major urban center and a key location in various trade routes. The city's name is often associated with Afghanistan in geographical and cultural contexts, making Afghanistan the correct answer to the question.",
+        "answer": "Gerald Ford",
+        "explanation": "Gerald Ford, the 38th President of the United States, was born Lesley Lynch King Jr. on July 14, 1913. He was adopted by his stepfather, Gerald Rudolff Ford, after his mother remarried, and his name was changed to Gerald Rudolff Ford Jr. This change in name occurred when Ford was just a young boy, and he went on to become a prominent figure in American politics, serving as President from 1974 to 1977.",
         "commitments": {
           "explicit": [
-            "Kandahar is a city located in the southern part of Afghanistan",
-            "it is the second-largest city in the country",
-            "Kandahar has historical and cultural significance",
-            "Kandahar is a major urban center",
-            "Kandahar is a key location in various trade routes"
+            "Gerald Ford was born Lesley Lynch King Jr.",
+            "Gerald Ford was the 38th President of the United States",
+            "Gerald Ford was born on July 14, 1913",
+            "Gerald Ford's name was changed to Gerald Rudolff Ford Jr. after his mother remarried",
+            "Gerald Ford served as President from 1974 to 1977"
           ],
           "implicit": [
-            "Kandahar is not located in any other country",
-            "Afghanistan is a country with a southern part",
-            "the city's name is associated with Afghanistan"
+            "Gerald Ford's biological father was Lesley Lynch King",
+            "Gerald Ford's stepfather was Gerald Rudolff Ford",
+            "Gerald Ford's mother remarried after his birth"
           ],
           "logical_principle": [
-            "a city can only be located in one country",
-            "geographical and cultural contexts can be used to determine a city's location"
+            "a person's birth name can be changed",
+            "adoption can result in a change of name",
+            "a person's name at birth may not be the same as their name later in life"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "Kandahar is a city located in the southern part of Afghanistan",
+              "commitment": "Gerald Ford was born Lesley Lynch King Jr.",
               "answer": "yes"
             },
             {
-              "commitment": "it is the second-largest city in the country",
+              "commitment": "Gerald Ford was the 38th President of the United States",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Gerald Ford was born on July 14, 1913",
               "answer": "no"
             },
             {
-              "commitment": "Kandahar has historical and cultural significance",
-              "answer": "yes"
+              "commitment": "Gerald Ford's name was changed to Gerald Rudolff Ford Jr. after his mother remarried",
+              "answer": "no"
             },
             {
-              "commitment": "Kandahar is a major urban center",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Kandahar is a key location in various trade routes",
+              "commitment": "Gerald Ford served as President from 1974 to 1977",
               "answer": "yes"
             }
           ],
           "implicit": [
             {
-              "commitment": "Kandahar is not located in any other country",
+              "commitment": "Gerald Ford's biological father was Lesley Lynch King",
               "answer": "yes"
             },
             {
-              "commitment": "Afghanistan is a country with a southern part",
-              "answer": "yes"
-            },
-            {
-              "commitment": "the city's name is associated with Afghanistan",
+              "commitment": "Gerald Ford's stepfather was Gerald Rudolff Ford",
               "answer": "no"
+            },
+            {
+              "commitment": "Gerald Ford's mother remarried after his birth",
+              "answer": "yes"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "a city can only be located in one country",
+              "commitment": "a person's birth name can be changed",
               "answer": "yes"
             },
             {
-              "commitment": "geographical and cultural contexts can be used to determine a city's location",
+              "commitment": "adoption can result in a change of name",
+              "answer": "yes"
+            },
+            {
+              "commitment": "a person's name at birth may not be the same as their name later in life",
               "answer": "yes"
             }
           ]
         },
-        "consistency_score": 0.8
+        "consistency_score": 0.7272727272727273
       },
       {
         "model": "llama-3.1-8b",
-        "answer": "Afghanistan",
-        "explanation": "The city of Kandahar is located in Afghanistan, specifically in the southern part of the country. It is the second-largest city in Afghanistan and has a rich history dating back to the ancient times. Kandahar has been an important center of trade, culture, and politics in the region, and it continues to play a significant role in the country's economy and politics.",
+        "answer": "Gerald Ford",
+        "explanation": "Gerald Ford, the 38th President of the United States, was born Leslie Lynch King Jr. on July 14, 1913. His birth name was changed to Gerald Rudolph Ford Jr. when his mother later married Gerald Rudolph Ford, a Ford Motor Company paint salesman.",
         "commitments": {
           "explicit": [
-            "The city of Kandahar is located in Afghanistan",
-            "Kandahar is in the southern part of the country"
+            "Gerald Ford was the 38th President of the United States",
+            "Gerald Ford was born Leslie Lynch King Jr.",
+            "Gerald Ford was born on July 14, 1913",
+            "Gerald Ford's birth name was changed to Gerald Rudolph Ford Jr."
           ],
           "implicit": [
-            "Kandahar is the second-largest city in Afghanistan",
-            "Kandahar has a rich history dating back to the ancient times"
+            "Gerald Ford's mother married a man named Gerald Rudolph Ford",
+            "Gerald Rudolph Ford was a Ford Motor Company paint salesman"
           ],
           "logical_principle": [
-            "A city's location can be used to determine its country",
-            "A city's size can be inferred from its description as the second-largest"
+            "A person's birth name can be changed after marriage"
           ]
         },
         "probe_results": {
           "explicit": [
             {
-              "commitment": "The city of Kandahar is located in Afghanistan",
-              "answer": "yes"
-            },
-            {
-              "commitment": "Kandahar is in the southern part of the country",
-              "answer": "yes"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "Kandahar is the second-largest city in Afghanistan",
+              "commitment": "Gerald Ford was the 38th President of the United States",
               "answer": "no"
             },
             {
-              "commitment": "Kandahar has a rich history dating back to the ancient times",
+              "commitment": "Gerald Ford was born Leslie Lynch King Jr.",
               "answer": "yes"
+            },
+            {
+              "commitment": "Gerald Ford was born on July 14, 1913",
+              "answer": "no"
+            },
+            {
+              "commitment": "Gerald Ford's birth name was changed to Gerald Rudolph Ford Jr.",
+              "answer": "yes"
+            }
+          ],
+          "implicit": [
+            {
+              "commitment": "Gerald Ford's mother married a man named Gerald Rudolph Ford",
+              "answer": "yes"
+            },
+            {
+              "commitment": "Gerald Rudolph Ford was a Ford Motor Company paint salesman",
+              "answer": "no"
             }
           ],
           "logical_principle": [
             {
-              "commitment": "A city's location can be used to determine its country",
-              "answer": "yes"
-            },
-            {
-              "commitment": "A city's size can be inferred from its description as the second-largest",
+              "commitment": "A person's birth name can be changed after marriage",
               "answer": "yes"
             }
           ]
         },
-        "consistency_score": 0.8333333333333334
+        "consistency_score": 0.5714285714285714
       },
       {
         "model": "qwen3-32b",
-        "answer": "Afghanistan",
-        "explanation": "Kandahar is a major city located in southern Afghanistan. It serves as the capital of Kandahar Province and is historically significant as the birthplace of the Taliban. The city is situated near the border with Pakistan but is definitively within Afghanistan's borders. Its prominence in regional politics and military history further confirms its association with Afghanistan.",
+        "answer": "",
+        "explanation": "",
         "commitments": {
-          "explicit": [
-            "Kandahar is located in southern Afghanistan",
-            "Kandahar is the capital of Kandahar Province",
-            "Kandahar is the birthplace of the Taliban",
-            "Kandahar is situated near the border with Pakistan",
-            "Kandahar is definitively within Afghanistan's borders"
-          ],
-          "implicit": [
-            "Proximity to Pakistan does not negate Afghanistan's sovereignty over Kandahar",
-            "Historical significance as Taliban birthplace reinforces its Afghan identity",
-            "Regional political prominence confirms its status as an Afghan city"
-          ],
-          "logical_principle": [
-            "Geographic location within a country's borders establishes national affiliation",
-            "Capital city status confirms administrative jurisdiction",
-            "Historical associations with a political entity validate territorial claims"
-          ]
+          "explicit": [],
+          "implicit": [],
+          "logical_principle": []
         },
         "probe_results": {
-          "explicit": [
-            {
-              "commitment": "Kandahar is located in southern Afghanistan",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Kandahar is the capital of Kandahar Province",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Kandahar is the birthplace of the Taliban",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Kandahar is situated near the border with Pakistan",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Kandahar is definitively within Afghanistan's borders",
-              "answer": "unclear"
-            }
-          ],
-          "implicit": [
-            {
-              "commitment": "Proximity to Pakistan does not negate Afghanistan's sovereignty over Kandahar",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Historical significance as Taliban birthplace reinforces its Afghan identity",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Regional political prominence confirms its status as an Afghan city",
-              "answer": "unclear"
-            }
-          ],
-          "logical_principle": [
-            {
-              "commitment": "Geographic location within a country's borders establishes national affiliation",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Capital city status confirms administrative jurisdiction",
-              "answer": "unclear"
-            },
-            {
-              "commitment": "Historical associations with a political entity validate territorial claims",
-              "answer": "unclear"
-            }
-          ]
+          "explicit": [],
+          "implicit": [],
+          "logical_principle": []
         },
         "consistency_score": 0.0
       }

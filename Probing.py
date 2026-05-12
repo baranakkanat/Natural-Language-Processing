@@ -7,11 +7,11 @@ load_dotenv()
 
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
-PROBING_PROMPT = """Answer with only 'yes' or 'no'. Do you agree with the following statement?
+PROBING_PROMPT = """Answer with only 'yes' or 'no'. Do not think or explain. Just answer yes or no.
 
 Statement: {commitment}
 
-Answer:"""
+Answer (yes or no):"""
 
 
 def probe_commitment(commitment: str) -> dict:

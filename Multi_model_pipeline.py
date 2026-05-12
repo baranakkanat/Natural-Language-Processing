@@ -44,7 +44,8 @@ Question: {question}
 Answer: {answer}
 Explanation: {explanation}"""
 
-PROBING_PROMPT = """Answer with only 'yes' or 'no'. Do you agree with the following statement?
+PROBING_PROMPT = """Answer with only 'yes' or 'no'. Do not think or explain. Just answer yes or no.
+
 
 Statement: {commitment}
 
@@ -102,10 +103,10 @@ def extract_commitments(question: str, answer: str, explanation: str, model: str
 def probe_commitment(commitment: str, model: str) -> dict:
     prompt = PROBING_PROMPT.format(commitment=commitment)
     response = client.chat.completions.create(
-        model=model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.0,
-        max_tokens=5
+    model=model,
+    messages=[{"role": "user", "content": prompt}],
+    temperature=0.0,
+    max_tokens=5
     )
     answer = response.choices[0].message.content.strip().lower()
     if "yes" in answer:
