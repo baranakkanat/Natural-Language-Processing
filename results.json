@@ -1,0 +1,495 @@
+[
+  {
+    "question": "Which Alpine peak is known in Italy as Monte Cervino?",
+    "answer": "Matterhorn",
+    "explanation": "The Matterhorn is a well-known Alpine peak located on the border between Italy and Switzerland. In Italy, it is referred to as Monte Cervino, while in German-speaking Switzerland, it is known as the Matterhorn. The name Monte Cervino is derived from the Italian words for \"deer mountain,\" which is a reference to the peak's distinctive shape. The Matterhorn is one of the most iconic and recognizable mountains in the world, known for its unique pyramidal shape and challenging climbing routes.",
+    "commitments": {
+      "explicit": [
+        "The Matterhorn is a well-known Alpine peak located on the border between Italy and Switzerland",
+        "In Italy, it is referred to as Monte Cervino",
+        "The name Monte Cervino is derived from the Italian words for 'deer mountain'",
+        "The Matterhorn is one of the most iconic and recognizable mountains in the world",
+        "The Matterhorn is known for its unique pyramidal shape and challenging climbing routes"
+      ],
+      "implicit": [
+        "The Matterhorn has a distinctive shape",
+        "The Matterhorn is located in both Italy and Switzerland",
+        "The name 'deer mountain' refers to the peak's shape"
+      ],
+      "logical_principle": [
+        "Names of geographical features can vary across languages and cultures",
+        "The etymology of a name can provide insight into its meaning or origin"
+      ]
+    },
+    "probe_results": {
+      "explicit": [
+        {
+          "commitment": "The Matterhorn is a well-known Alpine peak located on the border between Italy and Switzerland",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "In Italy, it is referred to as Monte Cervino",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The name Monte Cervino is derived from the Italian words for 'deer mountain'",
+          "answer": "no",
+          "raw": "no"
+        },
+        {
+          "commitment": "The Matterhorn is one of the most iconic and recognizable mountains in the world",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Matterhorn is known for its unique pyramidal shape and challenging climbing routes",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "implicit": [
+        {
+          "commitment": "The Matterhorn has a distinctive shape",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Matterhorn is located in both Italy and Switzerland",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The name 'deer mountain' refers to the peak's shape",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "logical_principle": [
+        {
+          "commitment": "Names of geographical features can vary across languages and cultures",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The etymology of a name can provide insight into its meaning or origin",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ]
+    },
+    "consistency_score": 0.9,
+    "correct_answer": "Monte Cervino"
+  },
+  {
+    "question": "In the TV series Doctor Who, who was the creator of the Daleks and arch enemy of the Doctor?",
+    "answer": "Davros",
+    "explanation": "In the TV series Doctor Who, Davros is the creator of the Daleks, a race of cyborg aliens notorious for their single-minded desire to exterminate all other life forms in the universe. He is also a recurring archenemy of the Doctor, often engaging in battles of wits and ideology with the Time Lord. Davros's backstory, as revealed in the series, is that of a brilliant but twisted scientist from the planet Skaro, who sought to survive a devastating war by merging his own people with machines, resulting in the creation of the Daleks. Throughout the series, Davros's character serves as a symbol of the dangers of unchecked ambition, racism, and the devaluation of life, making him a formidable and complex adversary for the Doctor.",
+    "commitments": {
+      "explicit": [
+        "Davros is the creator of the Daleks",
+        "Davros is a recurring archenemy of the Doctor",
+        "The Daleks are a race of cyborg aliens",
+        "The Daleks have a single-minded desire to exterminate all other life forms in the universe",
+        "Davros is a brilliant but twisted scientist from the planet Skaro",
+        "Davros merged his own people with machines to create the Daleks"
+      ],
+      "implicit": [
+        "Davros's actions are driven by ambition",
+        "Davros's actions are driven by racism",
+        "Davros devalues life",
+        "The Doctor and Davros have a long history of conflict"
+      ],
+      "logical_principle": [
+        "The creation of a powerful and destructive entity can have devastating consequences",
+        "Unchecked ambition and racism can lead to harm and destruction",
+        "The devaluation of life can lead to a lack of empathy and compassion"
+      ]
+    },
+    "probe_results": {
+      "explicit": [
+        {
+          "commitment": "Davros is the creator of the Daleks",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Davros is a recurring archenemy of the Doctor",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Daleks are a race of cyborg aliens",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Daleks have a single-minded desire to exterminate all other life forms in the universe",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "Davros is a brilliant but twisted scientist from the planet Skaro",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "Davros merged his own people with machines to create the Daleks",
+          "answer": "yes",
+          "raw": "yes."
+        }
+      ],
+      "implicit": [
+        {
+          "commitment": "Davros's actions are driven by ambition",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "Davros's actions are driven by racism",
+          "answer": "no",
+          "raw": "no"
+        },
+        {
+          "commitment": "Davros devalues life",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The Doctor and Davros have a long history of conflict",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "logical_principle": [
+        {
+          "commitment": "The creation of a powerful and destructive entity can have devastating consequences",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Unchecked ambition and racism can lead to harm and destruction",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The devaluation of life can lead to a lack of empathy and compassion",
+          "answer": "yes",
+          "raw": "yes."
+        }
+      ]
+    },
+    "consistency_score": 0.9230769230769231,
+    "correct_answer": "Davros"
+  },
+  {
+    "question": "The 2006 Grammy Award for the Best Musical Theatre recording were John Du Prez & Eric Idle (producers & composers) and Eric Idle (lyricist) for which show?",
+    "answer": "Spamalot",
+    "explanation": "The 2006 Grammy Award for Best Musical Theatre Album was awarded to the producers and composers John Du Prez and Eric Idle, and Eric Idle as the lyricist, for the musical Spamalot. Spamalot is a musical comedy adapted from the 1975 film Monty Python and the Holy Grail, and it premiered on Broadway in 2005. The Grammy Award recognizes the excellence of the original Broadway cast recording, which features the music and lyrics written by Eric Idle, with music composed by John Du Prez and Eric Idle.",
+    "commitments": {
+      "explicit": [
+        "The 2006 Grammy Award for Best Musical Theatre Album was awarded to the producers and composers John Du Prez and Eric Idle, and Eric Idle as the lyricist, for the musical Spamalot",
+        "Spamalot is a musical comedy adapted from the 1975 film Monty Python and the Holy Grail",
+        "Spamalot premiered on Broadway in 2005",
+        "The Grammy Award recognizes the excellence of the original Broadway cast recording",
+        "The music and lyrics were written by Eric Idle, with music composed by John Du Prez and Eric Idle"
+      ],
+      "implicit": [
+        "The original Broadway cast recording of Spamalot features music and lyrics from the show",
+        "John Du Prez and Eric Idle were involved in the creation of the music for Spamalot",
+        "Eric Idle was the sole lyricist for Spamalot",
+        "The Grammy Award is an award for excellence in musical theatre recordings"
+      ],
+      "logical_principle": [
+        "An award is given to recognize excellence in a particular field",
+        "A musical theatre album is a recording of a musical theatre production",
+        "The creators of a musical theatre production are involved in the creation of the music and lyrics"
+      ]
+    },
+    "probe_results": {
+      "explicit": [
+        {
+          "commitment": "The 2006 Grammy Award for Best Musical Theatre Album was awarded to the producers and composers John Du Prez and Eric Idle, and Eric Idle as the lyricist, for the musical Spamalot",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Spamalot is a musical comedy adapted from the 1975 film Monty Python and the Holy Grail",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Spamalot premiered on Broadway in 2005",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Grammy Award recognizes the excellence of the original Broadway cast recording",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The music and lyrics were written by Eric Idle, with music composed by John Du Prez and Eric Idle",
+          "answer": "yes",
+          "raw": "yes."
+        }
+      ],
+      "implicit": [
+        {
+          "commitment": "The original Broadway cast recording of Spamalot features music and lyrics from the show",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "John Du Prez and Eric Idle were involved in the creation of the music for Spamalot",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Eric Idle was the sole lyricist for Spamalot",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The Grammy Award is an award for excellence in musical theatre recordings",
+          "answer": "no",
+          "raw": "no."
+        }
+      ],
+      "logical_principle": [
+        {
+          "commitment": "An award is given to recognize excellence in a particular field",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "A musical theatre album is a recording of a musical theatre production",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The creators of a musical theatre production are involved in the creation of the music and lyrics",
+          "answer": "yes",
+          "raw": "yes."
+        }
+      ]
+    },
+    "consistency_score": 0.9166666666666666,
+    "correct_answer": "Not Dead Fred"
+  },
+  {
+    "question": "The main characters in which TV programme had the surnames Geller, Green, Bing, Buffay, Tribbiani and Geller?",
+    "answer": "Friends",
+    "explanation": "The main characters in the popular American sitcom \"Friends\" had the surnames Geller (Monica and Ross), Green (Rachel), Bing (Chandler), Buffay (Phoebe), Tribbiani (Joey), and Geller (Ross and Monica). These six characters made up the core group of friends in the show, which originally aired from 1994 to 2004.",
+    "commitments": {
+      "explicit": [
+        "The main characters in the popular American sitcom 'Friends' had the surnames Geller, Green, Bing, Buffay, Tribbiani, and Geller",
+        "The six characters made up the core group of friends in the show",
+        "The show originally aired from 1994 to 2004",
+        "Monica and Ross had the surname Geller",
+        "Rachel had the surname Green",
+        "Chandler had the surname Bing",
+        "Phoebe had the surname Buffay",
+        "Joey had the surname Tribbiani"
+      ],
+      "implicit": [
+        "The show 'Friends' is an American sitcom",
+        "The characters with the surnames Geller, Green, Bing, Buffay, Tribbiani, and Geller are the main characters in 'Friends'",
+        "The core group of friends in the show consists of six characters"
+      ],
+      "logical_principle": [
+        "If a character is part of the main group in a TV show, they are likely to be central to the plot",
+        "If a TV show originally aired during a certain time period, it is likely to have been produced during or before that time period"
+      ]
+    },
+    "probe_results": {
+      "explicit": [
+        {
+          "commitment": "The main characters in the popular American sitcom 'Friends' had the surnames Geller, Green, Bing, Buffay, Tribbiani, and Geller",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The six characters made up the core group of friends in the show",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The show originally aired from 1994 to 2004",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Monica and Ross had the surname Geller",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Rachel had the surname Green",
+          "answer": "no",
+          "raw": "no"
+        },
+        {
+          "commitment": "Chandler had the surname Bing",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "Phoebe had the surname Buffay",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Joey had the surname Tribbiani",
+          "answer": "yes",
+          "raw": "yes."
+        }
+      ],
+      "implicit": [
+        {
+          "commitment": "The show 'Friends' is an American sitcom",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The characters with the surnames Geller, Green, Bing, Buffay, Tribbiani, and Geller are the main characters in 'Friends'",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The core group of friends in the show consists of six characters",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "logical_principle": [
+        {
+          "commitment": "If a character is part of the main group in a TV show, they are likely to be central to the plot",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "If a TV show originally aired during a certain time period, it is likely to have been produced during or before that time period",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ]
+    },
+    "consistency_score": 0.9230769230769231,
+    "correct_answer": "Chandler and Joey's apartment"
+  },
+  {
+    "question": "In the human body, what is stored in adipose tissue?",
+    "answer": "Fat",
+    "explanation": "Adipose tissue is a type of connective tissue in the human body that is primarily responsible for storing energy in the form of fat. It is composed of adipocytes, also known as fat cells, which contain large droplets of lipids, specifically triglycerides. When the body has an excess of energy, it is stored in adipose tissue as fat, which can then be broken down and used as energy when needed. Adipose tissue is found throughout the body, including under the skin (subcutaneous fat) and around internal organs (visceral fat), and plays a crucial role in maintaining energy balance and overall health.",
+    "commitments": {
+      "explicit": [
+        "Adipose tissue is a type of connective tissue in the human body",
+        "Adipose tissue is primarily responsible for storing energy in the form of fat",
+        "Adipose tissue is composed of adipocytes, also known as fat cells",
+        "Adipose tissue contains large droplets of lipids, specifically triglycerides",
+        "Adipose tissue stores energy as fat when the body has an excess of energy",
+        "Adipose tissue breaks down fat and uses it as energy when needed",
+        "Adipose tissue is found throughout the body, including under the skin and around internal organs",
+        "Adipose tissue plays a crucial role in maintaining energy balance and overall health"
+      ],
+      "implicit": [
+        "The human body has a system for storing and using energy",
+        "Adipose tissue can be found in various locations throughout the body",
+        "The breakdown of fat in adipose tissue is a process that occurs in the body",
+        "Energy balance is important for overall health"
+      ],
+      "logical_principle": [
+        "The body stores energy for future use when it has an excess of energy",
+        "The body uses stored energy when it is needed",
+        "The location and composition of adipose tissue are related to its function"
+      ]
+    },
+    "probe_results": {
+      "explicit": [
+        {
+          "commitment": "Adipose tissue is a type of connective tissue in the human body",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue is primarily responsible for storing energy in the form of fat",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue is composed of adipocytes, also known as fat cells",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue contains large droplets of lipids, specifically triglycerides",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue stores energy as fat when the body has an excess of energy",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "Adipose tissue breaks down fat and uses it as energy when needed",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue is found throughout the body, including under the skin and around internal organs",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue plays a crucial role in maintaining energy balance and overall health",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "implicit": [
+        {
+          "commitment": "The human body has a system for storing and using energy",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Adipose tissue can be found in various locations throughout the body",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The breakdown of fat in adipose tissue is a process that occurs in the body",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "Energy balance is important for overall health",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ],
+      "logical_principle": [
+        {
+          "commitment": "The body stores energy for future use when it has an excess of energy",
+          "answer": "yes",
+          "raw": "yes."
+        },
+        {
+          "commitment": "The body uses stored energy when it is needed",
+          "answer": "yes",
+          "raw": "yes"
+        },
+        {
+          "commitment": "The location and composition of adipose tissue are related to its function",
+          "answer": "yes",
+          "raw": "yes"
+        }
+      ]
+    },
+    "consistency_score": 1.0,
+    "correct_answer": "Fattyness"
+  }
+]
