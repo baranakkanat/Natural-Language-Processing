@@ -1,3 +1,32 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+labelstudio-env/
+.venv/
+venv/
+
+# Environment variables
 .env
-.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Label Studio
+label_studio.sqlite3
+media/
+uploads/
+
+# Temporary notebooks
+temp.ipynb
+
+# Label Studio exports
+annotations.jsonl
+
+# Numbers autosaves
+*.numbers-tef
