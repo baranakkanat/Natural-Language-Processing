@@ -14,10 +14,4 @@ __pycache__/
 .DS_Store
 
 # Outputs / generated files
-outputs/
-annotation_results.csv
 *.log
-
-# Optional: ignore temporary data
-data/raw/
-data/processed/
