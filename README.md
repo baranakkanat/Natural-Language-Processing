@@ -8,7 +8,6 @@
 ## Dataset
 
 * ARC-Challenge (`allenai/ai2_arc`)
-* First 20 examples from the training split were used.
 
 ## Prompting Strategy
 
