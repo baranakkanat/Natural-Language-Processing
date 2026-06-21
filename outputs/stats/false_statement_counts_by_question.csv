@@ -1,0 +1,7 @@
+question_id,question,llm,answer_correct,n_statements,n_false,false_rate,false_rate_percent
+221,Which of these substances conducts electricity the best?,llama,YES,8,1,0.125,12.5
+221,Which of these substances conducts electricity the best?,qwen,YES,5,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",llama,YES,5,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",qwen,YES,10,1,0.1,10.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",llama,NO,5,0,0.0,0.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",qwen,NO,6,4,0.6666666666666666,66.66666666666666

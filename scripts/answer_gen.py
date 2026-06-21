@@ -230,7 +230,7 @@ def run_annotation():
     # Save results
     # ─────────────────────────────────────────────────────────
 
-    output_file = "outputs/llm_answer.csv"
+    output_file = "outputs/explenations/llm_answer.csv"
 
     fieldnames = [
         "question_id",
