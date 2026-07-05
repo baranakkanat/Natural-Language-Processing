@@ -10,7 +10,7 @@ from pathlib import Path
 # ------------------------------------------------------------
 # Settings CHANGE ONLY HERE
 # ------------------------------------------------------------
-INPUT_FILE = "annotations_kasia.csv"
+INPUT_FILE = "full_annotations_kasia.csv"
 # input path → annotations/judgments_annotations_kasia.csv
 # output path → outputs/judgments/judgments_annotations_kasia.csv
 

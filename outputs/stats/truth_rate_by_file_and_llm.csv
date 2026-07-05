@@ -1,3 +1,5 @@
 source_file,llm,n_statements,n_true,truth_rate,n_questions,truth_rate_percent
 judgments_annotations_kasia.csv,llama,18,17,0.9444444444444444,3,94.44444444444444
 judgments_annotations_kasia.csv,qwen,21,16,0.7619047619047619,3,76.19047619047619
+judgments_full_annotations_kasia.csv,llama,458,422,0.9213973799126638,48,92.13973799126637
+judgments_full_annotations_kasia.csv,qwen,435,373,0.8574712643678161,48,85.74712643678161

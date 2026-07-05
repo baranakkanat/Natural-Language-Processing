@@ -108,7 +108,7 @@ outputs/judgments/
 After all desired judgment files have been generated, run:
 
 ```bash
-python scripts/analyze_judgments.py
+python scripts/analyze.py
 ```
 
 This script automatically processes **all judgment CSV files** in `outputs/judgments/` and updates the aggregate statistics, including:

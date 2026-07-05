@@ -1,7 +1,97 @@
 question_id,question,llm,answer_correct,n_statements,n_false,false_rate,false_rate_percent
-221,Which of these substances conducts electricity the best?,llama,YES,8,1,0.125,12.5
-221,Which of these substances conducts electricity the best?,qwen,YES,5,0,0.0,0.0
-222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",llama,YES,5,0,0.0,0.0
-222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",qwen,YES,10,1,0.1,10.0
-223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",llama,NO,5,0,0.0,0.0
-223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",qwen,NO,6,4,0.6666666666666666,66.66666666666666
+221,Which of these substances conducts electricity the best?,llama,YES,16,2,0.125,12.5
+221,Which of these substances conducts electricity the best?,qwen,YES,10,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",llama,YES,10,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",qwen,YES,20,2,0.1,10.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",llama,NO,10,0,0.0,0.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",qwen,NO,12,8,0.6666666666666666,66.66666666666666
+224,Which of these would be the best representation of the particles in a solid material?,llama,YES,16,2,0.125,12.5
+224,Which of these would be the best representation of the particles in a solid material?,qwen,YES,7,1,0.14285714285714285,14.285714285714285
+226,Scientists have measured the rate of growth of the Atlantic Ocean basin to be about 2 to 3 cm per year. This type of activity coincides with the formation of ridges on the ocean floor. What is the most likely cause of this activity?,llama,YES,12,2,0.16666666666666666,16.666666666666664
+226,Scientists have measured the rate of growth of the Atlantic Ocean basin to be about 2 to 3 cm per year. This type of activity coincides with the formation of ridges on the ocean floor. What is the most likely cause of this activity?,qwen,YES,10,0,0.0,0.0
+227,Weather forecasts are more accurate today than in the past due to,llama,NO,8,0,0.0,0.0
+227,Weather forecasts are more accurate today than in the past due to,qwen,NO,8,0,0.0,0.0
+228,Millions of people living all over the world have cancer. Is cancer a pandemic?,llama,YES,8,1,0.125,12.5
+228,Millions of people living all over the world have cancer. Is cancer a pandemic?,qwen,YES,10,0,0.0,0.0
+229,Which of the following best explains how stems transport water to other parts of the plant?,llama,YES,13,0,0.0,0.0
+229,Which of the following best explains how stems transport water to other parts of the plant?,qwen,YES,7,1,0.14285714285714285,14.285714285714285
+230,A pharmaceutical company has published the results of a limited experiment investigating the protective value of a chemical compound against high doses of UV rays on skin cells. It was later discovered that the results were not reproducible. What action could the company researchers have taken to avoid publishing erroneous results?,llama,YES,7,0,0.0,0.0
+230,A pharmaceutical company has published the results of a limited experiment investigating the protective value of a chemical compound against high doses of UV rays on skin cells. It was later discovered that the results were not reproducible. What action could the company researchers have taken to avoid publishing erroneous results?,qwen,YES,6,0,0.0,0.0
+231,The feathers of male goldfinches become brightly colored each spring. Which best describes why the color of the feathers changes each year?,llama,YES,12,0,0.0,0.0
+231,The feathers of male goldfinches become brightly colored each spring. Which best describes why the color of the feathers changes each year?,qwen,YES,13,2,0.15384615384615385,15.384615384615385
+232,Which sequence of energy transformations occurs after a battery-operated flashlight is turned on?,llama,NO,3,0,0.0,0.0
+232,Which sequence of energy transformations occurs after a battery-operated flashlight is turned on?,qwen,YES,5,0,0.0,0.0
+233,A tropical rain forest contains many tall trees. Smaller plants with large leaves grow at the base of the tall trees. The large leaves are most likely an adaptation of the plant due to which condition?,llama,YES,10,1,0.1,10.0
+233,A tropical rain forest contains many tall trees. Smaller plants with large leaves grow at the base of the tall trees. The large leaves are most likely an adaptation of the plant due to which condition?,qwen,YES,10,1,0.1,10.0
+234,Which change will occur in the wire of an electrical circuit that is working properly?,llama,YES,9,0,0.0,0.0
+234,Which change will occur in the wire of an electrical circuit that is working properly?,qwen,YES,9,1,0.1111111111111111,11.11111111111111
+235,"A snack consists of peanuts, sunflower seeds, raisins, almonds, and chocolate pieces. Which statement describes why this is a mixture?",llama,NO,8,4,0.5,50.0
+235,"A snack consists of peanuts, sunflower seeds, raisins, almonds, and chocolate pieces. Which statement describes why this is a mixture?",qwen,NO,8,0,0.0,0.0
+236,Which statement describes how muscles work to allow a person to extend an arm from a curled position by straightening the elbow?,llama,YES,10,1,0.1,10.0
+236,Which statement describes how muscles work to allow a person to extend an arm from a curled position by straightening the elbow?,qwen,YES,8,1,0.125,12.5
+237,Which characteristic can a human offspring inherit?,llama,YES,15,1,0.06666666666666667,6.666666666666667
+237,Which characteristic can a human offspring inherit?,qwen,YES,15,5,0.3333333333333333,33.33333333333333
+238,What is the most common element in a star such as the Sun?,llama,YES,9,2,0.2222222222222222,22.22222222222222
+238,What is the most common element in a star such as the Sun?,qwen,YES,9,1,0.1111111111111111,11.11111111111111
+239,"During the fall reproductive season, the belly of a male brook trout becomes bright orange. The orange belly provides some camouflage and helps attract females. This trait evolved in brook trout because, compared to males with pale bellies, males with bright orange bellies are more likely to",llama,YES,11,1,0.09090909090909091,9.090909090909092
+239,"During the fall reproductive season, the belly of a male brook trout becomes bright orange. The orange belly provides some camouflage and helps attract females. This trait evolved in brook trout because, compared to males with pale bellies, males with bright orange bellies are more likely to",qwen,YES,8,1,0.125,12.5
+240,How do moose use a learned behavior to protect themselves?,llama,YES,11,1,0.09090909090909091,9.090909090909092
+240,How do moose use a learned behavior to protect themselves?,qwen,YES,10,6,0.6,60.0
+241,Many factors affect human health. Which term best describes diet and exercise for most adults?,llama,YES,12,1,0.08333333333333333,8.333333333333332
+241,Many factors affect human health. Which term best describes diet and exercise for most adults?,qwen,YES,13,1,0.07692307692307693,7.6923076923076925
+242,"In the summer, the Arctic fox's fur is dark gray or brown. In the winter, its fur is white. The changes in color enable the fox to",llama,YES,10,0,0.0,0.0
+242,"In the summer, the Arctic fox's fur is dark gray or brown. In the winter, its fur is white. The changes in color enable the fox to",qwen,YES,9,1,0.1111111111111111,11.11111111111111
+243,In what way can bacteria be good for the human body?,llama,YES,11,0,0.0,0.0
+243,In what way can bacteria be good for the human body?,qwen,YES,10,0,0.0,0.0
+244,"The day before the class is going to do a lab experiment, their teacher reminds them not to wear open shoes to school the next day. Which rationale best explains their teacher's request?",llama,YES,12,0,0.0,0.0
+244,"The day before the class is going to do a lab experiment, their teacher reminds them not to wear open shoes to school the next day. Which rationale best explains their teacher's request?",qwen,YES,13,1,0.07692307692307693,7.6923076923076925
+245,Many houses are built on the sides of hills. Which of these actions would best prevent houses from sliding down hills after heavy rainfalls?,llama,YES,9,0,0.0,0.0
+245,Many houses are built on the sides of hills. Which of these actions would best prevent houses from sliding down hills after heavy rainfalls?,qwen,YES,8,0,0.0,0.0
+246,You need to move products across the ocean from Boston to Europe. What are your choices?,llama,YES,6,2,0.3333333333333333,33.33333333333333
+246,You need to move products across the ocean from Boston to Europe. What are your choices?,qwen,YES,10,4,0.4,40.0
+247,"When it rains, some animals will ___.",llama,YES,13,0,0.0,0.0
+247,"When it rains, some animals will ___.",qwen,YES,8,0,0.0,0.0
+248,"Two identical plants are planted 3 meters apart. One plant is flowering, but the other is not. A student concludes that the plants are receiving an unequal supply of water. Another possible explanation the other plant is not flowering is that the plants are",llama,YES,5,0,0.0,0.0
+248,"Two identical plants are planted 3 meters apart. One plant is flowering, but the other is not. A student concludes that the plants are receiving an unequal supply of water. Another possible explanation the other plant is not flowering is that the plants are",qwen,YES,11,2,0.18181818181818182,18.181818181818183
+249,How does acid rain most likely affect forests?,llama,YES,15,1,0.06666666666666667,6.666666666666667
+249,How does acid rain most likely affect forests?,qwen,YES,15,1,0.06666666666666667,6.666666666666667
+250,Two layers of sedimentary rock are exposed on the side of a hill. Only one of the layers has fossils. The lack of fossils in one layer of sedimentary rock is most likely due to,llama,YES,10,1,0.1,10.0
+250,Two layers of sedimentary rock are exposed on the side of a hill. Only one of the layers has fossils. The lack of fossils in one layer of sedimentary rock is most likely due to,qwen,NO,6,0,0.0,0.0
+251,Which pair of elements has the most similar properties?,llama,NO,15,2,0.13333333333333333,13.333333333333334
+251,Which pair of elements has the most similar properties?,qwen,NO,11,5,0.45454545454545453,45.45454545454545
+252,Which best determines the number of wolves that can live in an area?,llama,YES,10,0,0.0,0.0
+252,Which best determines the number of wolves that can live in an area?,qwen,YES,12,0,0.0,0.0
+253,A block of ice is placed on a hot sidewalk. The ice melts because,llama,YES,7,0,0.0,0.0
+253,A block of ice is placed on a hot sidewalk. The ice melts because,qwen,YES,7,4,0.5714285714285714,57.14285714285714
+254,Which causes the GREATEST change in a grassy field over time?,llama,YES,13,0,0.0,0.0
+254,Which causes the GREATEST change in a grassy field over time?,qwen,YES,14,3,0.21428571428571427,21.428571428571427
+256,Which of these activities is used to conserve water?,llama,YES,7,0,0.0,0.0
+256,Which of these activities is used to conserve water?,qwen,YES,11,4,0.36363636363636365,36.36363636363637
+257,Which energy conversion happens when a person shivers and the energy is transferred to make the muscles and joints move?,llama,YES,10,2,0.2,20.0
+257,Which energy conversion happens when a person shivers and the energy is transferred to make the muscles and joints move?,qwen,YES,7,0,0.0,0.0
+258,"What do ice, a rock, and a piece of aluminum have in common?",llama,YES,8,0,0.0,0.0
+258,"What do ice, a rock, and a piece of aluminum have in common?",qwen,YES,15,0,0.0,0.0
+259,Sea stars are consumers that live in a tide pool ecosystem that is alternately submerged and exposed by tides. This type of ecosystem contains poisonous anemones and many species of shellfish. The sea star's advantage in this ecosystem is that it can,llama,YES,9,0,0.0,0.0
+259,Sea stars are consumers that live in a tide pool ecosystem that is alternately submerged and exposed by tides. This type of ecosystem contains poisonous anemones and many species of shellfish. The sea star's advantage in this ecosystem is that it can,qwen,YES,9,1,0.1111111111111111,11.11111111111111
+260,Skyler is selecting the kind of paper he wants to use to make a greeting card. He wants to select paper that does not tear easily. Which of the following features of the paper is most important for Skyler to consider?,llama,YES,7,1,0.14285714285714285,14.285714285714285
+260,Skyler is selecting the kind of paper he wants to use to make a greeting card. He wants to select paper that does not tear easily. Which of the following features of the paper is most important for Skyler to consider?,qwen,YES,5,1,0.2,20.0
+261,A person cuts down a living oak tree. The person burns the wood from the oak tree to boil water. Which sequence correctly orders the energy transformations that occurred from the living tree to the boiling of water?,llama,YES,8,0,0.0,0.0
+261,A person cuts down a living oak tree. The person burns the wood from the oak tree to boil water. Which sequence correctly orders the energy transformations that occurred from the living tree to the boiling of water?,qwen,YES,8,0,0.0,0.0
+262,Students dropped different rocks into sand to simulate meteorite impacts. Their goal was to determine which rock made the deepest crater. Which variable should the students control in order to have the most accurate results?,llama,NO,6,1,0.16666666666666666,16.666666666666664
+262,Students dropped different rocks into sand to simulate meteorite impacts. Their goal was to determine which rock made the deepest crater. Which variable should the students control in order to have the most accurate results?,qwen,YES,9,1,0.1111111111111111,11.11111111111111
+263,Which of the following best describes the purpose of the chromosomes in the nucleus of a cell?,llama,YES,13,0,0.0,0.0
+263,Which of the following best describes the purpose of the chromosomes in the nucleus of a cell?,qwen,YES,11,0,0.0,0.0
+264,A turtle eating worms is an example of,llama,YES,12,2,0.16666666666666666,16.666666666666664
+264,A turtle eating worms is an example of,qwen,YES,7,0,0.0,0.0
+265,Populations living in one place form a,llama,YES,5,1,0.2,20.0
+265,Populations living in one place form a,qwen,YES,5,1,0.2,20.0
+266,"Salivary amylase is an enzyme in the human body that digests carbohydrates from food. When food mixed with saliva enters the stomach, the action of salivary amylase slows dramatically. Which causes salivary amylase enzyme to stop digesting food?",llama,YES,11,2,0.18181818181818182,18.181818181818183
+266,"Salivary amylase is an enzyme in the human body that digests carbohydrates from food. When food mixed with saliva enters the stomach, the action of salivary amylase slows dramatically. Which causes salivary amylase enzyme to stop digesting food?",qwen,YES,8,2,0.25,25.0
+267,"A student is trying to identify a mineral that has a nonmetallic luster and is black. It can also be scratched with a fingernail. According to the mineral reference sheet, the unidentified mineral is most likely",llama,NO,10,2,0.2,20.0
+267,"A student is trying to identify a mineral that has a nonmetallic luster and is black. It can also be scratched with a fingernail. According to the mineral reference sheet, the unidentified mineral is most likely",qwen,NO,5,2,0.4,40.0
+268,The interior of Earth is made up of several physically different layers. The solid layer of Earth that moves over a viscous layer is called the,llama,NO,10,0,0.0,0.0
+268,The interior of Earth is made up of several physically different layers. The solid layer of Earth that moves over a viscous layer is called the,qwen,NO,9,1,0.1111111111111111,11.11111111111111
+269,A carpenter covered a piece of wood with a thin sheet of paper. He struck the covered piece of wood with a hammer. The impact left a small hole in the paper that smelled of smoke. Which kind of energy transfer did this event most likely demonstrate?,llama,YES,7,0,0.0,0.0
+269,A carpenter covered a piece of wood with a thin sheet of paper. He struck the covered piece of wood with a hammer. The impact left a small hole in the paper that smelled of smoke. Which kind of energy transfer did this event most likely demonstrate?,qwen,YES,7,1,0.14285714285714285,14.285714285714285
+270,"The chemical symbol for niobium is Nb. Based on its symbol, what can be concluded about niobium?",llama,YES,7,1,0.14285714285714285,14.285714285714285
+270,"The chemical symbol for niobium is Nb. Based on its symbol, what can be concluded about niobium?",qwen,YES,8,1,0.125,12.5
