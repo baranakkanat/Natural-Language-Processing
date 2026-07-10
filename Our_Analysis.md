@@ -4,7 +4,7 @@
 
 ##### Date: 10/07/2026
 
-This analysis is based on 2,347 commitments extracted from the explanations for answers given by the Llama and Qwen models to questions 121–270 of the ARC-Challenge dataset. Nine questions (IDs: 149, 156, 159, 163, 175, 183, 206, 225 and 255) were excluded based on the annotators' judgment of relevance. To assess the consistency of each model, we asked the respective model whether it agreed with the commitments extracted from its own explanations.
+This analysis is based on 2,347 commitments extracted from the explanations for answers given by the Llama and Qwen models to questions 121–270 of the ARC-Challenge dataset.  Nine questions (IDs: 149, 156, 159, 163, 175, 183, 206, 225 and 255) were excluded based on the annotators' judgment of relevance. To assess the consistency of each model, we asked the respective model whether it agreed with the commitments extracted from its own explanations.
 
 The following tables present the percentage of commitments that each LLM agreed with.
 

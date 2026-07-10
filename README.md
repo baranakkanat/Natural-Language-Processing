@@ -10,6 +10,9 @@
 
 * ARC-Challenge (`allenai/ai2_arc`)
 
+## Annotation Guidelines
+Here is a link to the annotation guidelines that are to be followed: https://docs.google.com/document/d/1BzEw2V8cb-p7db6rx9n2tyMyRkpaBVOcmUA23N688jE/edit?usp=sharing 
+
 ## Prompting Strategy
 
 ###  Answer Extraction
