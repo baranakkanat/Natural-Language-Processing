@@ -126,7 +126,6 @@ def judge_statement_in_isolation(model_id, statement):
 Decide whether the following statement is factually TRUE or FALSE.
 
 Judge the statement in isolation.
-Do not use the original question, answer options, correct answer, or explanation.
 Do not judge spelling or grammar.
 
 Statement:
