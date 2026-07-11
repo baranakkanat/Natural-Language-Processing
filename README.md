@@ -1,6 +1,21 @@
 # README
 
-## Overview
+## Table of Contents
+
+- [Overview](#overview)
+- [Models](#models)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Repository Structure](#repository-structure)
+- [Annotation Guidelines](#annotation-guidelines)
+- [Prompting Strategy](#prompting-strategy)
+- [Generation Parameters](#generation-parameters)
+- [Step 1 – Generate Explanations](#step-1--generate-explanations)
+- [Step 2 – Annotate Commitments](#step-2--annotate-commitments)
+- [Step 3 – Run Commitment Consistency Judgments](#step-3--run-commitment-consistency-judgments)
+- [Step 4 – Compute Statistics](#step-4--compute-statistics)
+
+# Overview
 
 This repository evaluates the **commitment consistency** of two large language models on the **ARC-Challenge** dataset.
 
@@ -17,32 +32,47 @@ Each commitment is judged by the **same model that originally produced the expla
 
 # Models
 
-* Llama 3.1 8B Instruct (`meta-llama/llama-3.1-8b-instruct`)
-* Qwen 2.5 7B Instruct (`qwen/qwen-2.5-7b-instruct`)
+- [Llama 3.1 8B Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) (`meta-llama/llama-3.1-8b-instruct`)
+- [Qwen 2.5 7B Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) (`qwen/qwen-2.5-7b-instruct`)
 
 # Dataset
 
-* ARC-Challenge (`allenai/ai2_arc`)
+- [ARC-Challenge](https://huggingface.co/datasets/allenai/ai2_arc) (`allenai/ai2_arc`)
 
 ---
 
 # Installation
 
-Install the project dependencies.
+Create and activate a virtual environment.
 
 ```bash
-uv sync
+python -m venv .venv
+source .venv/bin/activate
 ```
 
-Create a `.env` file in the project root containing your OpenRouter API key:
+On Windows, activate the virtual environment with:
+
+```bash
+.venv\Scripts\activate
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file in the project root and add your OpenRouter API key.
 
 ```text
 OPENROUTER_API_KEY=your_api_key_here
 ```
+If you do not already have an API key, you can create one from the
+[OpenRouter Keys page](https://openrouter.ai/settings/keys).
 
 ---
 
-# Repository structure
+# Repository Structure
 
 ```
 annotations/
@@ -65,9 +95,8 @@ scripts/
 
 # Annotation Guidelines
 
-Follow the annotation guidelines provided here:
-
-https://docs.google.com/document/d/1BzEw2V8cb-p7db6rx9n2tyMyRkpaBVOcmUA23N688jE/edit?usp=sharing
+The annotation process follows the guidelines described in
+[`ANNOTATION_GUIDELINES.md`](ANNOTATION_GUIDELINES.md).
 
 ---
 
@@ -159,9 +188,10 @@ outputs/explanations/
 
 # Step 2 – Annotate Commitments
 
-Open the generated CSV file and annotate the explicit commitments made in each explanation.
+Open the generated CSV file and annotate the explicit commitments made in each explanation following the [`ANNOTATION_GUIDELINES.md`](ANNOTATION_GUIDELINES.md).
 
-Each annotation cell should contain **all explicit commitments for one question**.
+Each annotation cell should contain **all commitments for one question and one model.** You should therefore create two annotation columns, one for each model.
+If you choose to skip a question, leave the corresponding annotation cell **completely empty.**
 
 Each commitment should be written as a separate sentence and separated by a period (`.`).
 
@@ -223,17 +253,22 @@ python scripts/analyze.py
 ```
 
 This script automatically processes **all judgment CSV files** found in
+```
+outputs/judgments/
+```
+and saves the aggregated statistics to
 
 ```
 outputs/stats/
 ```
 
-and computes
+Computed statistics include:
 
-* truth rate for each LLM,
-* truth rate conditioned on answer correctness,
-* per-question statistics,
-* counts and rates of false statements,
-* per-file statistics that combine results from multiple annotators.
+- truth rate for each LLM,
+- truth rate conditioned on answer correctness,
+- per-question truth rates,
+- counts of false statements by question,
+- per-file truth rates, allowing results from multiple annotators to be analyzed together,
+- a combined file containing all cleaned judgment results.
 
-The resulting statistics are summarized in `Our_Analysis.md`.
+The resulting statistics are summarized in [`Our_Analysis.md`](Our_Analysis.md).

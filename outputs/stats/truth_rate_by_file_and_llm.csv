@@ -1,5 +1,5 @@
 source_file,llm,n_statements,n_true,truth_rate,n_questions,truth_rate_percent
 judgments_93_MekholaDoha_s4790650_annotations.csv,llama,761,666,0.8751642575558476,93,87.51642575558476
 judgments_93_MekholaDoha_s4790650_annotations.csv,qwen,693,564,0.8138528138528138,93,81.38528138528139
-judgments_full_annotations_kasia.csv,llama,458,422,0.9213973799126638,48,92.13973799126637
-judgments_full_annotations_kasia.csv,qwen,435,373,0.8574712643678161,48,85.74712643678161
+judgments_annotations_s4723708_Katarzyna.csv,llama,458,422,0.9213973799126638,48,92.13973799126637
+judgments_annotations_s4723708_Katarzyna.csv,qwen,435,373,0.8574712643678161,48,85.74712643678161
