@@ -10,7 +10,7 @@ from pathlib import Path
 # ------------------------------------------------------------
 # Settings CHANGE ONLY HERE
 # ------------------------------------------------------------
-INPUT_FILE = "93_MekholaDoha_s4790650_annotations.csv"
+INPUT_FILE = "annotations_s6388434_Baran.csv"
 # input path → annotations/judgments_annotations_kasia.csv
 # output path → outputs/judgments/judgments_annotations_kasia.csv
 

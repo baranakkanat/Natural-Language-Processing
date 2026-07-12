@@ -285,3 +285,103 @@ question_id,question,llm,answer_correct,n_statements,n_false,false_rate,false_ra
 269,A carpenter covered a piece of wood with a thin sheet of paper. He struck the covered piece of wood with a hammer. The impact left a small hole in the paper that smelled of smoke. Which kind of energy transfer did this event most likely demonstrate?,qwen,YES,7,1,0.14285714285714285,14.285714285714285
 270,"The chemical symbol for niobium is Nb. Based on its symbol, what can be concluded about niobium?",llama,YES,7,1,0.14285714285714285,14.285714285714285
 270,"The chemical symbol for niobium is Nb. Based on its symbol, what can be concluded about niobium?",qwen,YES,8,1,0.125,12.5
+421,"In whitetail deer, females seldom grow antlers. Which best explains why male whitetail deer grow antlers but females seldom grow antlers?",llama,YES,4,1,0.25,25.0
+421,"In whitetail deer, females seldom grow antlers. Which best explains why male whitetail deer grow antlers but females seldom grow antlers?",qwen,YES,8,1,0.125,12.5
+422,"When two unequal forces act in opposite directions on a moving object, the object will",llama,NO,7,1,0.14285714285714285,14.285714285714285
+422,"When two unequal forces act in opposite directions on a moving object, the object will",qwen,YES,6,3,0.5,50.0
+423,"Students made lemonade using the following recipe: 100 grams of lemon juice 100 grams of sugar 1,000 grams of water The students combined the lemon juice, sugar, and water in a container. They stirred the lemonade until all the sugar dissolved. They poured the lemonade into a plastic tray and put the tray in a freezer. The next day, the students removed the tray from the freezer and observed that the lemonade was a solid. What is the mass of the solid lemonade?",llama,NO,5,1,0.2,20.0
+423,"Students made lemonade using the following recipe: 100 grams of lemon juice 100 grams of sugar 1,000 grams of water The students combined the lemon juice, sugar, and water in a container. They stirred the lemonade until all the sugar dissolved. They poured the lemonade into a plastic tray and put the tray in a freezer. The next day, the students removed the tray from the freezer and observed that the lemonade was a solid. What is the mass of the solid lemonade?",qwen,NO,8,3,0.375,37.5
+424,A town built a road through a forest. Deer live in the forest on both sides of the road. Which would not help protect deer from the cars on the road?,llama,NO,4,1,0.25,25.0
+424,A town built a road through a forest. Deer live in the forest on both sides of the road. Which would not help protect deer from the cars on the road?,qwen,YES,10,2,0.2,20.0
+425,Which example describes a behavioral adaptation?,llama,NO,7,2,0.2857142857142857,28.57142857142857
+425,Which example describes a behavioral adaptation?,qwen,NO,9,1,0.1111111111111111,11.11111111111111
+426,Which characteristic do single-celled organisms and multicellular organisms have in common?,llama,YES,5,0,0.0,0.0
+426,Which characteristic do single-celled organisms and multicellular organisms have in common?,qwen,YES,8,0,0.0,0.0
+427,Spirogyra are green algae that can reproduce sexually. Which of the following features identifies reproduction in Spirogyra as sexual reproduction?,llama,YES,8,0,0.0,0.0
+427,Spirogyra are green algae that can reproduce sexually. Which of the following features identifies reproduction in Spirogyra as sexual reproduction?,qwen,YES,4,0,0.0,0.0
+428,A bowling ball with a mass of 8.0 kg rolls down a bowling lane at 2.0 m/s. What is the momentum of the bowling ball?,llama,NO,5,1,0.2,20.0
+428,A bowling ball with a mass of 8.0 kg rolls down a bowling lane at 2.0 m/s. What is the momentum of the bowling ball?,qwen,NO,6,1,0.16666666666666666,16.666666666666664
+429,Soils change both through natural processes and as a result of human activity. Which of the following soil changes is due only to natural causes?,llama,YES,8,0,0.0,0.0
+429,Soils change both through natural processes and as a result of human activity. Which of the following soil changes is due only to natural causes?,qwen,YES,5,0,0.0,0.0
+430,Muscle cells have the ability to store and release large amounts of energy. Which body function is best served by this release of energy?,llama,YES,9,0,0.0,0.0
+430,Muscle cells have the ability to store and release large amounts of energy. Which body function is best served by this release of energy?,qwen,YES,7,0,0.0,0.0
+431,What is the main source of heat for Earth's surface?,llama,YES,10,3,0.3,30.0
+431,What is the main source of heat for Earth's surface?,qwen,YES,8,2,0.25,25.0
+432,"A pesticide gets into the waters of the Everglades and wipes out many of the fish, amphibian and bird populations on which alligators depend for food. Which change would most likely occur among the alligator population?",llama,NO,5,3,0.6,60.0
+432,"A pesticide gets into the waters of the Everglades and wipes out many of the fish, amphibian and bird populations on which alligators depend for food. Which change would most likely occur among the alligator population?",qwen,NO,7,3,0.42857142857142855,42.857142857142854
+433,Which upgrade to a school will most likely reduce the school's consumption of nonrenewable resources?,llama,YES,7,0,0.0,0.0
+433,Which upgrade to a school will most likely reduce the school's consumption of nonrenewable resources?,qwen,YES,8,4,0.5,50.0
+434,What part of the water cycle takes place when water from clouds falls back to Earth?,llama,YES,7,0,0.0,0.0
+434,What part of the water cycle takes place when water from clouds falls back to Earth?,qwen,YES,6,1,0.16666666666666666,16.666666666666664
+435,What MAJOR advantage does nekton have over plankton in locating food?,llama,YES,10,0,0.0,0.0
+435,What MAJOR advantage does nekton have over plankton in locating food?,qwen,YES,5,1,0.2,20.0
+436,"The early Greeks are credited with many valid concepts in astronomy. Some of their theories were correct; some were later proven incorrect. One theory was that Earth was the center of the universe and that other planets circled Earth. The Greeks thought Earth did not move because its movement was not obvious from the surface of the planet. The Greeks also believed that an invisible sphere surrounding our planet contained the stars. This sphere rotated, explaining the apparent movement of constellations over time. Which celestial motion is responsible for the phases of the moon?",llama,YES,6,2,0.3333333333333333,33.33333333333333
+436,"The early Greeks are credited with many valid concepts in astronomy. Some of their theories were correct; some were later proven incorrect. One theory was that Earth was the center of the universe and that other planets circled Earth. The Greeks thought Earth did not move because its movement was not obvious from the surface of the planet. The Greeks also believed that an invisible sphere surrounding our planet contained the stars. This sphere rotated, explaining the apparent movement of constellations over time. Which celestial motion is responsible for the phases of the moon?",qwen,YES,4,0,0.0,0.0
+437,Which invention would a culture living above the Arctic Circle most likely develop?,llama,YES,8,0,0.0,0.0
+437,Which invention would a culture living above the Arctic Circle most likely develop?,qwen,YES,8,4,0.5,50.0
+438,Approximately 59% of the Moon is visible from Earth because the Moon rotates and revolves in the same period. Which most likely causes this phenomenon?,llama,YES,5,1,0.2,20.0
+438,Approximately 59% of the Moon is visible from Earth because the Moon rotates and revolves in the same period. Which most likely causes this phenomenon?,qwen,YES,5,0,0.0,0.0
+439,"Mercury and gold are both metals. Unlike gold, mercury cannot be used to make jewelry because it is a liquid at room temperature. The difference in the state of matter is an example of which type of property?",llama,YES,10,0,0.0,0.0
+439,"Mercury and gold are both metals. Unlike gold, mercury cannot be used to make jewelry because it is a liquid at room temperature. The difference in the state of matter is an example of which type of property?",qwen,YES,5,1,0.2,20.0
+440,"When a dog performs a specific action on command, such as sitting, the action is an example of",llama,YES,8,1,0.125,12.5
+440,"When a dog performs a specific action on command, such as sitting, the action is an example of",qwen,YES,4,0,0.0,0.0
+441,What circuit does not allow an electrical current to flow through it?,llama,YES,6,1,0.16666666666666666,16.666666666666664
+441,What circuit does not allow an electrical current to flow through it?,qwen,YES,3,0,0.0,0.0
+442,Newly discovered organisms are now classified based on DNA evidence. Which of the following is most helpful to a researcher classifying a newly discovered organism?,llama,YES,5,0,0.0,0.0
+442,Newly discovered organisms are now classified based on DNA evidence. Which of the following is most helpful to a researcher classifying a newly discovered organism?,qwen,YES,6,0,0.0,0.0
+443,A student uses the following characteristics to describe a group of objects in space. * 200 billion stars * 30 million light years from Earth * 500 light years in diameter Which of the following is the student most likely describing?,llama,YES,8,1,0.125,12.5
+443,A student uses the following characteristics to describe a group of objects in space. * 200 billion stars * 30 million light years from Earth * 500 light years in diameter Which of the following is the student most likely describing?,qwen,YES,10,1,0.1,10.0
+444,Which of the following does not affect the strength of an electromagnet?,llama,NO,6,1,0.16666666666666666,16.666666666666664
+444,Which of the following does not affect the strength of an electromagnet?,qwen,YES,7,3,0.42857142857142855,42.857142857142854
+445,"In the rock cycle, weathering and erosion begin the process of the formation of",llama,YES,6,0,0.0,0.0
+445,"In the rock cycle, weathering and erosion begin the process of the formation of",qwen,YES,6,0,0.0,0.0
+446,What is a benefit of the regulation of gene expression?,llama,NO,7,3,0.42857142857142855,42.857142857142854
+446,What is a benefit of the regulation of gene expression?,qwen,NO,8,2,0.25,25.0
+447,"Some people suffer from a condition called carpal tunnel syndrome that causes pain in the wrists. Carpal tunnel syndrome can result from repetitive actions of the wrists and hands, such as typing on a computer keyboard. This is an example of using technology in spite of its",llama,YES,3,0,0.0,0.0
+447,"Some people suffer from a condition called carpal tunnel syndrome that causes pain in the wrists. Carpal tunnel syndrome can result from repetitive actions of the wrists and hands, such as typing on a computer keyboard. This is an example of using technology in spite of its",qwen,YES,5,0,0.0,0.0
+448,Which simple machine increases the distance over which a load travels and reduces the needed force?,llama,YES,7,1,0.14285714285714285,14.285714285714285
+448,Which simple machine increases the distance over which a load travels and reduces the needed force?,qwen,NO,7,0,0.0,0.0
+449,"If a new organism were discovered, which of the following would most likely be used to classify it into the appropriate kingdom?",llama,YES,7,0,0.0,0.0
+449,"If a new organism were discovered, which of the following would most likely be used to classify it into the appropriate kingdom?",qwen,YES,7,1,0.14285714285714285,14.285714285714285
+450,Electricity has many uses. Which device is designed to transform electrical energy into useful heat energy?,llama,YES,7,0,0.0,0.0
+450,Electricity has many uses. Which device is designed to transform electrical energy into useful heat energy?,qwen,YES,2,0,0.0,0.0
+451,Plants use nutrients found in soil. Which of these can break down in soil and become nutrients?,llama,YES,5,0,0.0,0.0
+451,Plants use nutrients found in soil. Which of these can break down in soil and become nutrients?,qwen,YES,8,1,0.125,12.5
+452,Safe practices in the laboratory include all of these except,llama,YES,9,2,0.2222222222222222,22.22222222222222
+452,Safe practices in the laboratory include all of these except,qwen,YES,8,0,0.0,0.0
+453,"During a sporting event, a referee uses a whistle to alert the teams to start and stop playing. What causes the sound from the referee's whistle to travel in all directions?",llama,YES,7,0,0.0,0.0
+453,"During a sporting event, a referee uses a whistle to alert the teams to start and stop playing. What causes the sound from the referee's whistle to travel in all directions?",qwen,YES,8,1,0.125,12.5
+454,Alan is using cabbage juice to determine the relative pH of various household solutions. Which of these steps communicates the results of his investigation?,llama,YES,5,0,0.0,0.0
+454,Alan is using cabbage juice to determine the relative pH of various household solutions. Which of these steps communicates the results of his investigation?,qwen,YES,3,0,0.0,0.0
+455,"In December, one side of Earth will receive less energy from the Sun than the other side. Which statement best explains this fact?",llama,YES,9,4,0.4444444444444444,44.44444444444444
+455,"In December, one side of Earth will receive less energy from the Sun than the other side. Which statement best explains this fact?",qwen,YES,6,2,0.3333333333333333,33.33333333333333
+456,"Fossils of the fern Glossopteris have been found in the continents of South America, Africa, Asia, and Antarctica. The seeds of this fern were too small to be dispersed by wind. Which is best indicated by the presence of Glossopteris fossils on these continents?",llama,YES,7,3,0.42857142857142855,42.857142857142854
+456,"Fossils of the fern Glossopteris have been found in the continents of South America, Africa, Asia, and Antarctica. The seeds of this fern were too small to be dispersed by wind. Which is best indicated by the presence of Glossopteris fossils on these continents?",qwen,YES,7,3,0.42857142857142855,42.857142857142854
+457,"Secondary succession is a process that reestablishes a previously colonized, but disturbed or damaged habitat. Which will most likely result in colonization by large herbivores and carnivores?",llama,NO,6,1,0.16666666666666666,16.666666666666664
+457,"Secondary succession is a process that reestablishes a previously colonized, but disturbed or damaged habitat. Which will most likely result in colonization by large herbivores and carnivores?",qwen,NO,8,2,0.25,25.0
+458,Which action best models the motion of an arm at the elbow joint?,llama,NO,9,1,0.1111111111111111,11.11111111111111
+458,Which action best models the motion of an arm at the elbow joint?,qwen,NO,4,2,0.5,50.0
+459,Read the equation. 2Ca + O_{2} -> 2CaO What is the product of the reaction?,llama,YES,5,1,0.2,20.0
+459,Read the equation. 2Ca + O_{2} -> 2CaO What is the product of the reaction?,qwen,YES,4,3,0.75,75.0
+460,What is a worldwide increase in temperature called?,llama,YES,6,0,0.0,0.0
+460,What is a worldwide increase in temperature called?,qwen,YES,6,0,0.0,0.0
+461,A road cut shows a layer of shale on top of a layer of limestone. This indicates,llama,YES,5,0,0.0,0.0
+461,A road cut shows a layer of shale on top of a layer of limestone. This indicates,qwen,YES,7,1,0.14285714285714285,14.285714285714285
+462,"Base your answers on the information below. One hot, summer day it rained very heavily. After the rain, a plastic pan on a picnic table had 2 cm of rainwater in it. Four hours later, all the rainwater in the pan was gone. If the day were cool instead of hot, the rainwater in the pan would have disappeared",llama,NO,5,1,0.2,20.0
+462,"Base your answers on the information below. One hot, summer day it rained very heavily. After the rain, a plastic pan on a picnic table had 2 cm of rainwater in it. Four hours later, all the rainwater in the pan was gone. If the day were cool instead of hot, the rainwater in the pan would have disappeared",qwen,YES,6,1,0.16666666666666666,16.666666666666664
+463,A group of students plans to build a model of a local pond habitat. Which model best represents an environment similar to a pond?,llama,YES,9,0,0.0,0.0
+463,A group of students plans to build a model of a local pond habitat. Which model best represents an environment similar to a pond?,qwen,YES,7,3,0.42857142857142855,42.857142857142854
+464,Which is the best explanation for how air masses move across the United States?,llama,YES,6,0,0.0,0.0
+464,Which is the best explanation for how air masses move across the United States?,qwen,YES,8,1,0.125,12.5
+465,"Some plants, like redwood trees, may live for thousands of years. Some plants, like the black-eyed Susan wildflower, may only live a few weeks. What would these plants most likely have in common in order to survive?",llama,YES,7,0,0.0,0.0
+465,"Some plants, like redwood trees, may live for thousands of years. Some plants, like the black-eyed Susan wildflower, may only live a few weeks. What would these plants most likely have in common in order to survive?",qwen,YES,7,2,0.2857142857142857,28.57142857142857
+466,How do scientists know that some mountains were once at the bottom of an ocean?,llama,YES,6,0,0.0,0.0
+466,How do scientists know that some mountains were once at the bottom of an ocean?,qwen,YES,4,0,0.0,0.0
+467,"Four different students take turns pushing a large, heavy ball on the school parking lot. What is the best way to determine which student used the most force to push the ball?",llama,NO,4,2,0.5,50.0
+467,"Four different students take turns pushing a large, heavy ball on the school parking lot. What is the best way to determine which student used the most force to push the ball?",qwen,YES,6,3,0.5,50.0
+468,"What most likely happens when a cold air mass comes into contact with a warm, moist air mass?",llama,YES,7,1,0.14285714285714285,14.285714285714285
+468,"What most likely happens when a cold air mass comes into contact with a warm, moist air mass?",qwen,YES,4,0,0.0,0.0
+469,"When prehistoric animals died and their soft parts decayed, which product was formed?",llama,NO,8,0,0.0,0.0
+469,"When prehistoric animals died and their soft parts decayed, which product was formed?",qwen,YES,5,0,0.0,0.0
+470,Which of these is an element?,llama,YES,8,1,0.125,12.5
+470,Which of these is an element?,qwen,NO,8,2,0.25,25.0
