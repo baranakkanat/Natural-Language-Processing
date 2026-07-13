@@ -5,6 +5,7 @@ __pycache__/
 
 # Secrets
 .env
+venv/
 
 # Jupyter
 .ipynb_checkpoints/

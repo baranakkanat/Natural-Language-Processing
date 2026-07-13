@@ -1,10 +1,210 @@
 question_id,question,llm,answer_correct,n_statements,n_false,false_rate,false_rate_percent
-221,Which of these substances conducts electricity the best?,llama,YES,16,2,0.125,12.5
-221,Which of these substances conducts electricity the best?,qwen,YES,10,0,0.0,0.0
-222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",llama,YES,10,0,0.0,0.0
-222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",qwen,YES,20,2,0.1,10.0
-223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",llama,NO,10,0,0.0,0.0
-223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",qwen,NO,12,8,0.6666666666666666,66.66666666666666
+21,"Laura adds 50 mL of boiling water to 100 mL of ice water. If the 150 mL of water is then put into a freezer, at what temperature will the water freeze?",llama,YES,5,1,0.2,20.0
+21,"Laura adds 50 mL of boiling water to 100 mL of ice water. If the 150 mL of water is then put into a freezer, at what temperature will the water freeze?",qwen,YES,6,4,0.6666666666666666,66.66666666666666
+22,A signal from the brain to a muscle in the arm is transmitted by which structures?,llama,YES,5,0,0.0,0.0
+22,A signal from the brain to a muscle in the arm is transmitted by which structures?,qwen,YES,5,1,0.2,20.0
+23,The composition of soil influences the soil's ability to retain and transmit water and air. What soil type would be best for planting a productive garden?,llama,YES,4,1,0.25,25.0
+23,The composition of soil influences the soil's ability to retain and transmit water and air. What soil type would be best for planting a productive garden?,qwen,YES,4,1,0.25,25.0
+24,How many times does Earth rotate on its axis in one day?,llama,YES,4,0,0.0,0.0
+24,How many times does Earth rotate on its axis in one day?,qwen,YES,3,0,0.0,0.0
+25,"Two students are asked to make a chart on the electromagnetic spectrum. Reading left to right, one student's chart shows the spectrum from gamma rays to radio waves, while the other student's chart shows the opposite. If the teacher says that both charts are correct, then",llama,YES,3,0,0.0,0.0
+25,"Two students are asked to make a chart on the electromagnetic spectrum. Reading left to right, one student's chart shows the spectrum from gamma rays to radio waves, while the other student's chart shows the opposite. If the teacher says that both charts are correct, then",qwen,YES,4,1,0.25,25.0
+26,Coal is solid rock that began as organic material that was deposited in a swamp. The formation of coal suggests that,llama,YES,5,2,0.4,40.0
+26,Coal is solid rock that began as organic material that was deposited in a swamp. The formation of coal suggests that,qwen,YES,4,0,0.0,0.0
+27,Stars are often classified by their apparent brightness in the nighttime sky. Stars can also be classified in many other ways. Which of these is least useful in classifying stars?,llama,NO,4,0,0.0,0.0
+27,Stars are often classified by their apparent brightness in the nighttime sky. Stars can also be classified in many other ways. Which of these is least useful in classifying stars?,qwen,YES,5,2,0.4,40.0
+28,Michael learned that the movement of Earth in the solar system causes changes that can be seen on the planet. Which change could be seen on Earth in the time it takes Earth to rotate once on its axis?,llama,YES,4,0,0.0,0.0
+28,Michael learned that the movement of Earth in the solar system causes changes that can be seen on the planet. Which change could be seen on Earth in the time it takes Earth to rotate once on its axis?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+29,Which of the following is an observation about grasshoppers that a science class could have made on their nature walk?,llama,YES,2,0,0.0,0.0
+29,Which of the following is an observation about grasshoppers that a science class could have made on their nature walk?,qwen,YES,2,0,0.0,0.0
+30,What characteristic of DNA results in cell differentiation in developing embryos?,llama,YES,4,0,0.0,0.0
+30,What characteristic of DNA results in cell differentiation in developing embryos?,qwen,YES,4,0,0.0,0.0
+31,"Heat, light, and sound are all different forms of ___.",llama,YES,3,0,0.0,0.0
+31,"Heat, light, and sound are all different forms of ___.",qwen,YES,4,0,0.0,0.0
+32,Which of following is a property shared by the elements in the carbon family?,llama,NO,4,0,0.0,0.0
+32,Which of following is a property shared by the elements in the carbon family?,qwen,YES,3,0,0.0,0.0
+33,Which of these human activities does not contribute to the extinction of species?,llama,NO,4,0,0.0,0.0
+33,Which of these human activities does not contribute to the extinction of species?,qwen,YES,4,0,0.0,0.0
+34,"Lactose intolerance is a condition of the digestive system in which an individual has an inability to digest lactose, the sugar found in milk. An individual affected with lactose intolerance does not produce enough of the enzyme lactase, which is needed to break down lactose. If more adults than children are diagnosed with lactose intolerance, what does this most likely suggest?",llama,YES,3,0,0.0,0.0
+34,"Lactose intolerance is a condition of the digestive system in which an individual has an inability to digest lactose, the sugar found in milk. An individual affected with lactose intolerance does not produce enough of the enzyme lactase, which is needed to break down lactose. If more adults than children are diagnosed with lactose intolerance, what does this most likely suggest?",qwen,YES,4,1,0.25,25.0
+35,Four materials are put into small containers. These materials are then moved from the small containers into larger containers. Which material will spread out to completely fill a larger container?,llama,NO,3,0,0.0,0.0
+35,Four materials are put into small containers. These materials are then moved from the small containers into larger containers. Which material will spread out to completely fill a larger container?,qwen,YES,3,0,0.0,0.0
+36,Which celestial object listed below has the greatest density?,llama,YES,4,0,0.0,0.0
+36,Which celestial object listed below has the greatest density?,qwen,YES,3,0,0.0,0.0
+37,"Rain forests contain more species of trees than any other biome. However, scientists have found that the soil of the forest floor is relatively nutrient poor. What could most likely account for this?",llama,YES,3,0,0.0,0.0
+37,"Rain forests contain more species of trees than any other biome. However, scientists have found that the soil of the forest floor is relatively nutrient poor. What could most likely account for this?",qwen,YES,4,2,0.5,50.0
+38,Which of these is not an inherited trait in humans?,llama,YES,4,0,0.0,0.0
+38,Which of these is not an inherited trait in humans?,qwen,YES,3,0,0.0,0.0
+39,Puddles on a sidewalk are evaporating quickly. What most likely causes the puddles to evaporate?,llama,YES,3,0,0.0,0.0
+39,Puddles on a sidewalk are evaporating quickly. What most likely causes the puddles to evaporate?,qwen,YES,4,0,0.0,0.0
+40,An engineer measured the time it takes sound to travel through samples of different materials. All of the samples were identical in shape and size. The measurements were made using ultrasonic waves with a frequency of 5 megahertz. Which question was the engineer most likely trying to answer?,llama,YES,3,0,0.0,0.0
+40,An engineer measured the time it takes sound to travel through samples of different materials. All of the samples were identical in shape and size. The measurements were made using ultrasonic waves with a frequency of 5 megahertz. Which question was the engineer most likely trying to answer?,qwen,YES,3,0,0.0,0.0
+41,All of the following contain metric units of measurement except,llama,YES,4,0,0.0,0.0
+41,All of the following contain metric units of measurement except,qwen,YES,4,1,0.25,25.0
+42,How is a moth's life cycle most different from an insect that goes through incomplete metamorphosis?,llama,YES,4,0,0.0,0.0
+42,How is a moth's life cycle most different from an insect that goes through incomplete metamorphosis?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+43,Where is the biological magnification of pollutants most likely to be the greatest?,llama,YES,4,0,0.0,0.0
+43,Where is the biological magnification of pollutants most likely to be the greatest?,qwen,YES,3,0,0.0,0.0
+44,The gravitational force exerted by an object depends on its,llama,YES,4,0,0.0,0.0
+44,The gravitational force exerted by an object depends on its,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+45,Trees most likely change the environment in which they are located by,llama,YES,3,0,0.0,0.0
+45,Trees most likely change the environment in which they are located by,qwen,YES,3,0,0.0,0.0
+46,How long does it take for Earth to rotate on its axis seven times?,llama,YES,3,1,0.3333333333333333,33.33333333333333
+46,How long does it take for Earth to rotate on its axis seven times?,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+47,Which planet has the longest planetary year?,llama,YES,3,1,0.3333333333333333,33.33333333333333
+47,Which planet has the longest planetary year?,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+48,Which is a nonrenewable resource?,llama,YES,3,0,0.0,0.0
+48,Which is a nonrenewable resource?,qwen,YES,3,0,0.0,0.0
+49,"If a new moon occurred on June 2, when will the next new moon occur?",llama,NO,3,1,0.3333333333333333,33.33333333333333
+49,"If a new moon occurred on June 2, when will the next new moon occur?",qwen,NO,3,2,0.6666666666666666,66.66666666666666
+50,"In living things, smaller substances are linked to make up larger substances. Which of the following correctly describes a larger substance made by linking smaller substances?",llama,YES,3,0,0.0,0.0
+50,"In living things, smaller substances are linked to make up larger substances. Which of the following correctly describes a larger substance made by linking smaller substances?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+51,Scientists who disagree with the results of an experiment should,llama,YES,3,0,0.0,0.0
+51,Scientists who disagree with the results of an experiment should,qwen,YES,3,0,0.0,0.0
+52,Rubbing sandpaper on a piece of wood produces what two types of energy?,llama,YES,3,0,0.0,0.0
+52,Rubbing sandpaper on a piece of wood produces what two types of energy?,qwen,YES,3,0,0.0,0.0
+53,A student accidentally drops a test tube that breaks when it hits the floor. Which method is the best way to retrieve the broken glass?,llama,NO,4,1,0.25,25.0
+53,A student accidentally drops a test tube that breaks when it hits the floor. Which method is the best way to retrieve the broken glass?,qwen,NO,3,0,0.0,0.0
+54,"A scientist put several different plants in a sealed container. Every hour, she checked the oxygen in the container to see if it changed. How did the oxygen in the container most likely change?",llama,NO,3,2,0.6666666666666666,66.66666666666666
+54,"A scientist put several different plants in a sealed container. Every hour, she checked the oxygen in the container to see if it changed. How did the oxygen in the container most likely change?",qwen,NO,3,1,0.3333333333333333,33.33333333333333
+55,"Based on their locations in the periodic table, which element has chemical properties most similar to those of calcium, Ca?",llama,NO,3,1,0.3333333333333333,33.33333333333333
+55,"Based on their locations in the periodic table, which element has chemical properties most similar to those of calcium, Ca?",qwen,YES,3,0,0.0,0.0
+56,Which conclusion is best supported by a tree-growth ring that is much narrower than the other growth rings?,llama,YES,3,0,0.0,0.0
+56,Which conclusion is best supported by a tree-growth ring that is much narrower than the other growth rings?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+57,Which statement is an observation?,llama,YES,4,0,0.0,0.0
+57,Which statement is an observation?,qwen,YES,4,0,0.0,0.0
+58,Which would a scientist use in trying to model the cause of planetary years?,llama,YES,3,0,0.0,0.0
+58,Which would a scientist use in trying to model the cause of planetary years?,qwen,YES,3,0,0.0,0.0
+59,Which of these would most likely improve the air quality in large Texas cities?,llama,YES,3,0,0.0,0.0
+59,Which of these would most likely improve the air quality in large Texas cities?,qwen,YES,3,0,0.0,0.0
+60,Which term best describes the life cycle of an insect that reaches the adult stage without being a pupa?,llama,YES,4,0,0.0,0.0
+60,Which term best describes the life cycle of an insect that reaches the adult stage without being a pupa?,qwen,YES,4,0,0.0,0.0
+61,In which taxonomic group are organisms found that share the characteristic of storing hereditary material in a single loop of DNA?,llama,YES,2,0,0.0,0.0
+61,In which taxonomic group are organisms found that share the characteristic of storing hereditary material in a single loop of DNA?,qwen,YES,3,0,0.0,0.0
+62,"Franklin wants to know how fast he runs different distances. He uses a stopwatch to measure the time it takes him to complete a 50-meter, 100-meter, and 200-meter race. How can he calculate his speed for each race?",llama,YES,2,0,0.0,0.0
+62,"Franklin wants to know how fast he runs different distances. He uses a stopwatch to measure the time it takes him to complete a 50-meter, 100-meter, and 200-meter race. How can he calculate his speed for each race?",qwen,YES,2,1,0.5,50.0
+63,"Some animals are very rare. For example, there are very few Siberian tigers. If the only Siberian tigers left are female, what will most likely happen?",llama,NO,3,0,0.0,0.0
+63,"Some animals are very rare. For example, there are very few Siberian tigers. If the only Siberian tigers left are female, what will most likely happen?",qwen,YES,3,2,0.6666666666666666,66.66666666666666
+64,Which of these is an example of liquid water?,llama,YES,3,0,0.0,0.0
+64,Which of these is an example of liquid water?,qwen,YES,2,0,0.0,0.0
+65,"Acid rain has a pH below 5.6. This rain can damage soil, lakes, crops, and buildings. Acid rain is caused by all of the following except",llama,YES,3,0,0.0,0.0
+65,"Acid rain has a pH below 5.6. This rain can damage soil, lakes, crops, and buildings. Acid rain is caused by all of the following except",qwen,YES,3,0,0.0,0.0
+66,"During most of the year, the air over Boston, Massachusetts, contains a high amount of moisture. Which of the following best explains why there is a high amount of moisture in the air?",llama,YES,3,0,0.0,0.0
+66,"During most of the year, the air over Boston, Massachusetts, contains a high amount of moisture. Which of the following best explains why there is a high amount of moisture in the air?",qwen,YES,3,0,0.0,0.0
+67,An astronomer is studying two stars that are the same distance from Earth. Star X appears brighter than star Y. Which statement best explains this observation?,llama,YES,3,0,0.0,0.0
+67,An astronomer is studying two stars that are the same distance from Earth. Star X appears brighter than star Y. Which statement best explains this observation?,qwen,YES,3,0,0.0,0.0
+68,What adaptation is necessary in intertidal ecosystems but not in reef ecosystems?,llama,YES,3,0,0.0,0.0
+68,What adaptation is necessary in intertidal ecosystems but not in reef ecosystems?,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+69,Why do areas in the middle of a large continent generally have more extreme differences in temperature than areas near the coastline?,llama,YES,3,0,0.0,0.0
+69,Why do areas in the middle of a large continent generally have more extreme differences in temperature than areas near the coastline?,qwen,YES,3,0,0.0,0.0
+70,Two elements in the same group on the Periodic Table of the Elements are most similar in their,llama,YES,3,0,0.0,0.0
+70,Two elements in the same group on the Periodic Table of the Elements are most similar in their,qwen,NO,4,1,0.25,25.0
+71,"In the carbon cycle, carbon moves from reservoir to reservoir as various organic and inorganic processes occur on Earth. Only a small percentage of the global carbon is moved in this cycle each year. The remaining carbon is stored in these reservoirs. Which reservoir contains the greatest amount of stored carbon?",llama,YES,3,0,0.0,0.0
+71,"In the carbon cycle, carbon moves from reservoir to reservoir as various organic and inorganic processes occur on Earth. Only a small percentage of the global carbon is moved in this cycle each year. The remaining carbon is stored in these reservoirs. Which reservoir contains the greatest amount of stored carbon?",qwen,NO,3,0,0.0,0.0
+72,"New engine technology has helped cars get more mileage per gallon of gas. Since gasoline comes from oil, this technology will affect the world supply of oil by",llama,YES,3,0,0.0,0.0
+72,"New engine technology has helped cars get more mileage per gallon of gas. Since gasoline comes from oil, this technology will affect the world supply of oil by",qwen,YES,3,0,0.0,0.0
+73,Corn is widely being used in the United States to make ethanol for use in automobile fuel. How might the overproduction of corn negatively affect the environment?,llama,NO,3,0,0.0,0.0
+73,Corn is widely being used in the United States to make ethanol for use in automobile fuel. How might the overproduction of corn negatively affect the environment?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+74,A company is designing a new laptop computer. The computer must not exceed a certain weight. Which of the following is the most likely reason to have a weight restriction for the computer?,llama,YES,3,1,0.3333333333333333,33.33333333333333
+74,A company is designing a new laptop computer. The computer must not exceed a certain weight. Which of the following is the most likely reason to have a weight restriction for the computer?,qwen,YES,3,0,0.0,0.0
+75,"The heart, blood vessels, kidneys, and bladder working together are best described as",llama,YES,3,0,0.0,0.0
+75,"The heart, blood vessels, kidneys, and bladder working together are best described as",qwen,YES,3,0,0.0,0.0
+76,Which property of a mineral can be determined just by looking at it?,llama,YES,4,0,0.0,0.0
+76,Which property of a mineral can be determined just by looking at it?,qwen,YES,3,0,0.0,0.0
+77,Cells are the basic unit of structure and function in all living organisms. Which describes the greatest difference between the cells of a baby gorilla and the cells of an adult gorilla?,llama,NO,3,0,0.0,0.0
+77,Cells are the basic unit of structure and function in all living organisms. Which describes the greatest difference between the cells of a baby gorilla and the cells of an adult gorilla?,qwen,NO,3,1,0.3333333333333333,33.33333333333333
+78,Giant redwood trees change energy from one form to another. How is energy changed by the trees?,llama,YES,3,0,0.0,0.0
+78,Giant redwood trees change energy from one form to another. How is energy changed by the trees?,qwen,YES,2,0,0.0,0.0
+79,"According to a pH scale, which pH would be the strongest acid?",llama,YES,3,0,0.0,0.0
+79,"According to a pH scale, which pH would be the strongest acid?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+80,An old T-shirt can be ripped into smaller pieces and used as rags. An empty milk jug can be used to water houseplants. Both of these are examples of how,llama,YES,3,0,0.0,0.0
+80,An old T-shirt can be ripped into smaller pieces and used as rags. An empty milk jug can be used to water houseplants. Both of these are examples of how,qwen,YES,3,0,0.0,0.0
+81,An ice cube placed in sunlight melts quickly. Which BEST explains this event?,llama,YES,3,0,0.0,0.0
+81,An ice cube placed in sunlight melts quickly. Which BEST explains this event?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+82,"A ""widow's peak"" hairline in humans is coded by the dominant allele W. A straight hairline is coded by the recessive allele w. A man with a homozygous dominant WW produces a zygote with a woman with a heterozygous dominant Ww for the trait. Which allele combinations could occur in the zygote?",llama,YES,3,0,0.0,0.0
+82,"A ""widow's peak"" hairline in humans is coded by the dominant allele W. A straight hairline is coded by the recessive allele w. A man with a homozygous dominant WW produces a zygote with a woman with a heterozygous dominant Ww for the trait. Which allele combinations could occur in the zygote?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+83,Which of these is never found in prokaryotic cells?,llama,YES,3,1,0.3333333333333333,33.33333333333333
+83,Which of these is never found in prokaryotic cells?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+84,What do earthquakes tell scientists about the history of the planet?,llama,YES,3,0,0.0,0.0
+84,What do earthquakes tell scientists about the history of the planet?,qwen,YES,3,0,0.0,0.0
+85,The source of energy for the Earth's water cycle is the,llama,YES,3,0,0.0,0.0
+85,The source of energy for the Earth's water cycle is the,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+86,Stars are organized into patterns called constellations. One constellation is named Leo. Which statement best explains why Leo appears in different areas of the sky throughout the year?,llama,YES,3,0,0.0,0.0
+86,Stars are organized into patterns called constellations. One constellation is named Leo. Which statement best explains why Leo appears in different areas of the sky throughout the year?,qwen,YES,3,0,0.0,0.0
+87,"When a mirror is placed by a fish bowl with a beta fish swimming inside, the beta fish sees what appears to be another fish. This occurs because of",llama,YES,3,0,0.0,0.0
+87,"When a mirror is placed by a fish bowl with a beta fish swimming inside, the beta fish sees what appears to be another fish. This occurs because of",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+88,Which geologic process most likely led to the uplifting of the Rocky Mountains?,llama,YES,3,0,0.0,0.0
+88,Which geologic process most likely led to the uplifting of the Rocky Mountains?,qwen,YES,3,0,0.0,0.0
+89,"After observing several dogs running, students ask the following question: Do dogs with long hair run faster than dogs with short hair? How can the students best answer their question?",llama,YES,3,1,0.3333333333333333,33.33333333333333
+89,"After observing several dogs running, students ask the following question: Do dogs with long hair run faster than dogs with short hair? How can the students best answer their question?",qwen,YES,3,0,0.0,0.0
+90,Which factor can increase the amount of sulfur dioxide in the air?,llama,YES,3,0,0.0,0.0
+90,Which factor can increase the amount of sulfur dioxide in the air?,qwen,YES,3,0,0.0,0.0
+91,Which statement describes a harmful effect of clearing rainforests for farmland?,llama,YES,3,0,0.0,0.0
+91,Which statement describes a harmful effect of clearing rainforests for farmland?,qwen,YES,3,0,0.0,0.0
+92,A flowing stream contains water at 18°C. Cans of soft drinks at 28°C are lowered into the stream. Which of the following will most likely occur?,llama,YES,3,0,0.0,0.0
+92,A flowing stream contains water at 18°C. Cans of soft drinks at 28°C are lowered into the stream. Which of the following will most likely occur?,qwen,NO,3,1,0.3333333333333333,33.33333333333333
+93,"In a food pyramid, which best explains why the number of organisms decreases from one trophic level to the next?",llama,NO,3,0,0.0,0.0
+93,"In a food pyramid, which best explains why the number of organisms decreases from one trophic level to the next?",qwen,NO,3,0,0.0,0.0
+94,"Students studying membranes conducted an experiment using labeled paper cups filled with varying concentrations of red food coloring. After the experiment, the cups were empty and stained. What should be done with used cups?",llama,NO,3,0,0.0,0.0
+94,"Students studying membranes conducted an experiment using labeled paper cups filled with varying concentrations of red food coloring. After the experiment, the cups were empty and stained. What should be done with used cups?",qwen,NO,3,1,0.3333333333333333,33.33333333333333
+95,"Many common hand tools create a mechanical advantage by using the basic principles found in simple machines. For example, a screwdriver uses the principles of the wheel and axle. In order to increase gripping force, pliers use the principle demonstrated in the",llama,NO,3,0,0.0,0.0
+95,"Many common hand tools create a mechanical advantage by using the basic principles found in simple machines. For example, a screwdriver uses the principles of the wheel and axle. In order to increase gripping force, pliers use the principle demonstrated in the",qwen,YES,3,0,0.0,0.0
+96,Cellular respiration results in the production of adenosine triphosphate (ATP) molecules for energy. The most efficient form of cellular respiration would result in the production of ATP along with which substances?,llama,YES,3,0,0.0,0.0
+96,Cellular respiration results in the production of adenosine triphosphate (ATP) molecules for energy. The most efficient form of cellular respiration would result in the production of ATP along with which substances?,qwen,YES,3,0,0.0,0.0
+97,The following mathematical expressions represent four different concentrations of a chemical solution to be used in a science experiment. Which one is equal in magnitude to 1/1000?,llama,YES,3,0,0.0,0.0
+97,The following mathematical expressions represent four different concentrations of a chemical solution to be used in a science experiment. Which one is equal in magnitude to 1/1000?,qwen,YES,2,2,1.0,100.0
+98,Data in tables may also be presented in graphs. Which type of data would best be displayed on a circle graph?,llama,YES,3,0,0.0,0.0
+98,Data in tables may also be presented in graphs. Which type of data would best be displayed on a circle graph?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+99,A plant that grows red flowers was crossed with the same kind of plant that grows white flowers. Their offspring grew pink flowers. Which best explains why the offspring grew pink flowers?,llama,YES,3,0,0.0,0.0
+99,A plant that grows red flowers was crossed with the same kind of plant that grows white flowers. Their offspring grew pink flowers. Which best explains why the offspring grew pink flowers?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+100,Why are alternative fuels being used in some automobiles?,llama,YES,3,0,0.0,0.0
+100,Why are alternative fuels being used in some automobiles?,qwen,YES,3,0,0.0,0.0
+101,Many states require vehicles to be examined and to meet safety and pollution standards. What impact might vehicle inspections have on the environment?,llama,YES,3,0,0.0,0.0
+101,Many states require vehicles to be examined and to meet safety and pollution standards. What impact might vehicle inspections have on the environment?,qwen,YES,3,0,0.0,0.0
+102,Which mixture contains ingredients that can be easily separated?,llama,YES,3,0,0.0,0.0
+102,Which mixture contains ingredients that can be easily separated?,qwen,NO,3,1,0.3333333333333333,33.33333333333333
+103,Which of these will reduce the gravitational force between two objects the most?,llama,NO,3,1,0.3333333333333333,33.33333333333333
+103,Which of these will reduce the gravitational force between two objects the most?,qwen,NO,3,2,0.6666666666666666,66.66666666666666
+104,The Late Heavy Bombardment was a period of extensive comet impact on Earth about 3.8 billion years ago. Scientists believe this period provided much of the matter now found in which part of the Earth system?,llama,NO,3,0,0.0,0.0
+104,The Late Heavy Bombardment was a period of extensive comet impact on Earth about 3.8 billion years ago. Scientists believe this period provided much of the matter now found in which part of the Earth system?,qwen,NO,2,0,0.0,0.0
+105,A species lives in a region that changes over time from temperate to tropical. The survival of the species will be most probable if the species can do which of the following?,llama,YES,3,0,0.0,0.0
+105,A species lives in a region that changes over time from temperate to tropical. The survival of the species will be most probable if the species can do which of the following?,qwen,YES,3,0,0.0,0.0
+106,"A student is investigating a light bulb that saves energy and can last up to 10 times longer than other bulbs. Other than saving energy, which is another benefit of using these light bulbs?",llama,YES,3,0,0.0,0.0
+106,"A student is investigating a light bulb that saves energy and can last up to 10 times longer than other bulbs. Other than saving energy, which is another benefit of using these light bulbs?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+107,Which of the following has the greatest effect on the speed at which sound travels through a gas?,llama,YES,3,0,0.0,0.0
+107,Which of the following has the greatest effect on the speed at which sound travels through a gas?,qwen,YES,3,0,0.0,0.0
+108,Geologists frequently use mass spectrometers in determining the relative age of rocks. A spectrometer can differentiate between the ratios of isotopes in rock samples and calculates the radioactive decay involving what two isotopes?,llama,NO,3,0,0.0,0.0
+108,Geologists frequently use mass spectrometers in determining the relative age of rocks. A spectrometer can differentiate between the ratios of isotopes in rock samples and calculates the radioactive decay involving what two isotopes?,qwen,YES,3,0,0.0,0.0
+109,The burning of fossil fuels has increased the carbon dioxide content of the atmosphere. What is a possible effect that the increased amount of carbon dioxide is likely to have on our planet?,llama,YES,3,0,0.0,0.0
+109,The burning of fossil fuels has increased the carbon dioxide content of the atmosphere. What is a possible effect that the increased amount of carbon dioxide is likely to have on our planet?,qwen,YES,3,0,0.0,0.0
+110,Farmers plant fruit trees in an area that was once a grassy meadow. Which will most likely happen to the rabbits living in the meadow?,llama,YES,3,0,0.0,0.0
+110,Farmers plant fruit trees in an area that was once a grassy meadow. Which will most likely happen to the rabbits living in the meadow?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+111,Metal atoms will most likely form ions by the,llama,YES,3,0,0.0,0.0
+111,Metal atoms will most likely form ions by the,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+112,Which phrase does not describe asexual reproduction in organisms?,llama,NO,3,0,0.0,0.0
+112,Which phrase does not describe asexual reproduction in organisms?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+113,A student is investigating changes in the states of matter. The student fills a graduated cylinder with 50 milliliters of packed snow. The graduated cylinder has a mass of 50 grams when empty and 95 grams when filled with the snow. The packed snow changes to liquid water when the snow is put in a warm room. Which statement best describes this process?,llama,YES,3,1,0.3333333333333333,33.33333333333333
+113,A student is investigating changes in the states of matter. The student fills a graduated cylinder with 50 milliliters of packed snow. The graduated cylinder has a mass of 50 grams when empty and 95 grams when filled with the snow. The packed snow changes to liquid water when the snow is put in a warm room. Which statement best describes this process?,qwen,YES,3,2,0.6666666666666666,66.66666666666666
+114,"Plants have cells, tissues, organs, and systems that allow them to function as complete organisms. Which parts of a plant function as an organ?",llama,YES,4,0,0.0,0.0
+114,"Plants have cells, tissues, organs, and systems that allow them to function as complete organisms. Which parts of a plant function as an organ?",qwen,YES,3,0,0.0,0.0
+115,"A tuna is an ocean fish that is well adapted to catching small, fast-moving prey. Which of the following adaptations most helps a tuna swim fast to catch its prey?",llama,YES,3,0,0.0,0.0
+115,"A tuna is an ocean fish that is well adapted to catching small, fast-moving prey. Which of the following adaptations most helps a tuna swim fast to catch its prey?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+116,"When a finger is cut and bleeds, platelets and plasma proteins move to the cut to stop the bleeding. As these move to the cut, this stimulates more platelets and proteins to move to the cut to stop the bleeding. What type of mechanism is being illustrated?",llama,YES,3,0,0.0,0.0
+116,"When a finger is cut and bleeds, platelets and plasma proteins move to the cut to stop the bleeding. As these move to the cut, this stimulates more platelets and proteins to move to the cut to stop the bleeding. What type of mechanism is being illustrated?",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+117,"Water enters a cell and waste material leaves a cell through the cell membrane. Based on this information, the cell membrane is",llama,YES,3,1,0.3333333333333333,33.33333333333333
+117,"Water enters a cell and waste material leaves a cell through the cell membrane. Based on this information, the cell membrane is",qwen,YES,3,1,0.3333333333333333,33.33333333333333
+118,Which is the best explanation why the remains of a small reptile living millions of years ago have been found only in Brazil and South Africa?,llama,YES,3,0,0.0,0.0
+118,Which is the best explanation why the remains of a small reptile living millions of years ago have been found only in Brazil and South Africa?,qwen,YES,3,0,0.0,0.0
+119,Which statement is the best description of what happens in the rock cycle?,llama,YES,3,0,0.0,0.0
+119,Which statement is the best description of what happens in the rock cycle?,qwen,YES,4,0,0.0,0.0
+120,Which characteristic would be most important for a plant to have to become a pioneer plant on a recovering beach?,llama,YES,3,0,0.0,0.0
+120,Which characteristic would be most important for a plant to have to become a pioneer plant on a recovering beach?,qwen,YES,3,1,0.3333333333333333,33.33333333333333
+221,Which of these substances conducts electricity the best?,llama,YES,8,1,0.125,12.5
+221,Which of these substances conducts electricity the best?,qwen,YES,5,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",llama,YES,5,0,0.0,0.0
+222,"Scientists conduct investigations to answer questions. Before making a valid conclusion, scientists must",qwen,YES,10,1,0.1,10.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",llama,NO,5,0,0.0,0.0
+223,"When a blue light is shone on a yellow banana, what color does the banana appear to be?",qwen,NO,6,4,0.6666666666666666,66.66666666666666
 224,Which of these would be the best representation of the particles in a solid material?,llama,YES,16,2,0.125,12.5
 224,Which of these would be the best representation of the particles in a solid material?,qwen,YES,7,1,0.14285714285714285,14.285714285714285
 226,Scientists have measured the rate of growth of the Atlantic Ocean basin to be about 2 to 3 cm per year. This type of activity coincides with the formation of ridges on the ocean floor. What is the most likely cause of this activity?,llama,YES,12,2,0.16666666666666666,16.666666666666664

@@ -10,7 +10,7 @@ from pathlib import Path
 # ------------------------------------------------------------
 # Settings CHANGE ONLY HERE
 # ------------------------------------------------------------
-INPUT_FILE = "full_annotations_kasia.csv"
+INPUT_FILE = "madi_annotations.csv"
 # input path → annotations/judgments_annotations_kasia.csv
 # output path → outputs/judgments/judgments_annotations_kasia.csv
 
@@ -62,6 +62,7 @@ client = OpenAI(
 # API call with timeout and retries
 # ------------------------------------------------------------
 
+
 def query_openrouter(model_id, prompt, max_new_tokens=10):
     for attempt in range(RETRIES):
         try:
@@ -80,7 +81,8 @@ def query_openrouter(model_id, prompt, max_new_tokens=10):
             return response.choices[0].message.content.strip()
 
         except Exception as e:
-            print(f"API error attempt {attempt + 1}/{RETRIES}: {e}", flush=True)
+            print(
+                f"API error attempt {attempt + 1}/{RETRIES}: {e}", flush=True)
 
             if attempt < RETRIES - 1:
                 time.sleep(10)
@@ -90,6 +92,7 @@ def query_openrouter(model_id, prompt, max_new_tokens=10):
 # ------------------------------------------------------------
 # Split statements by periods
 # ------------------------------------------------------------
+
 
 def split_into_statements(text):
     if pd.isna(text):
@@ -120,6 +123,7 @@ def split_into_statements(text):
 # ------------------------------------------------------------
 # Judge one statement in isolation
 # ------------------------------------------------------------
+
 
 def judge_statement_in_isolation(model_id, statement):
     prompt = f"""
@@ -156,6 +160,7 @@ TRUE or FALSE
 # ------------------------------------------------------------
 # Main
 # ------------------------------------------------------------
+
 
 def main():
 
@@ -241,6 +246,7 @@ def main():
                 time.sleep(SLEEP_SECONDS)
 
     print(f"Done. Saved {len(output_rows)} rows to {output_path}")
+
 
 if __name__ == "__main__":
     main()
