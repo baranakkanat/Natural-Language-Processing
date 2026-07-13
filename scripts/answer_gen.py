@@ -5,6 +5,16 @@ from openai import OpenAI
 from dotenv import load_dotenv
 from datasets import load_dataset
 
+# ------------------------------------------------------------
+# Settings CHANGE ONLY HERE
+# ------------------------------------------------------------
+OUTPUT_FILE = "big_annotation_results_with_options.csv"
+# output path → outputs/explanations/llm_answer.csv
+
+
+START = 0 # Question index to start from (0-based)
+N_QUESTIONS = 600 # Number of questions to process
+
 # ─────────────────────────────────────────────────────────────
 # Load environment variables
 # ─────────────────────────────────────────────────────────────
@@ -52,7 +62,7 @@ arc = load_dataset(
 
 QUESTIONS = []
 
-for item in arc.select(range(20)):
+for item in arc.select(range(START, START + N_QUESTIONS)):
     choices = dict(
         zip(item["choices"]["label"], item["choices"]["text"])
     )
@@ -230,7 +240,7 @@ def run_annotation():
     # Save results
     # ─────────────────────────────────────────────────────────
 
-    output_file = "outputs/explenations/llm_answer.csv"
+    output_file = "outputs/explenations/" + OUTPUT_FILE
 
     fieldnames = [
         "question_id",

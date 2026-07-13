@@ -10,7 +10,11 @@ from pathlib import Path
 # ------------------------------------------------------------
 # Settings CHANGE ONLY HERE
 # ------------------------------------------------------------
+<<<<<<< HEAD
 INPUT_FILE = "madi_annotations.csv"
+=======
+INPUT_FILE = "annotations_s6388434_Baran.csv"
+>>>>>>> f1f555a2501892083ed12b2e7dc4e604b3576621
 # input path → annotations/judgments_annotations_kasia.csv
 # output path → outputs/judgments/judgments_annotations_kasia.csv
 
@@ -130,7 +134,6 @@ def judge_statement_in_isolation(model_id, statement):
 Decide whether the following statement is factually TRUE or FALSE.
 
 Judge the statement in isolation.
-Do not use the original question, answer options, correct answer, or explanation.
 Do not judge spelling or grammar.
 
 Statement:
